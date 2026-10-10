@@ -26,6 +26,8 @@ HWKM (حوكم) is a Saudi-built, all-in-one Governance, Risk and Compliance (GR
 
 ## المدونة / Blog
 - [جميع المقالات](https://web.hwkm.net/blog/)
+- [حوكمة اجتماعات مجلس الإدارة: من الدعوة إلى القرار الموثّق](https://web.hwkm.net/blog/board-meeting-governance/) (2026-10-11)
+- [خطوط الدفاع الثلاثة: الحوكمة وإدارة المخاطر والتدقيق الداخلي](https://web.hwkm.net/blog/three-lines-of-defense/) (2026-10-11)
 - [الحوكمة في الشركات الصغيرة والمتوسطة: كيف تسرّع نموك؟](https://web.hwkm.net/blog/governance-smes-growth-impact/) (2026-06-10)
 - [الحوكمة المؤسسية في السعودية: الواقع والتحديات وما يجب تغييره](https://web.hwkm.net/blog/corporate-governance-saudi-arabia-reality-challenges/) (2026-05-15)
 - [مجلس الإدارة الفعّال: سبعة مبادئ لا يمكن تجاهلها](https://web.hwkm.net/blog/effective-board-seven-principles/) (2026-05-02)
