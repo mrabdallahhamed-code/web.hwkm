@@ -30,7 +30,7 @@
 <link href="/assets/apple-touch-icon.png" rel="apple-touch-icon"/>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-<link as="image" fetchpriority="high" href="/assets/board-meeting-1.webp" rel="preload" type="image/webp"/>
+<link as="image" fetchpriority="high" href="/assets/platform-dashboard.webp" rel="preload" type="image/webp"/>
 <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800;900&amp;family=Amiri:wght@400;700&amp;display=swap" rel="stylesheet"/>
 <script type="application/ld+json">
 {
@@ -144,53 +144,6 @@
    },
    "areaServed": "SA",
    "screenshot": "https://web.hwkm.net/assets/board-meeting-1.jpg"
-  },
-  {
-   "@type": "FAQPage",
-   "@id": "https://web.hwkm.net/#faq",
-   "inLanguage": "ar",
-   "mainEntity": [
-    {
-     "@type": "Question",
-     "name": "ما الذي يميز حوكم؟",
-     "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "حوكم منظومة متكاملة للحوكمة والمخاطر والامتثال تجمع سبعة حلول في منصة واحدة: الحوكمة المؤسسية، واجتماعات مجلس الإدارة، والجمعيات العامة، والتدقيق الداخلي، وإدارة المخاطر، والامتثال، والإفصاحات للشركات المدرجة (إعلانات تداول). وهي مصممة للسوق السعودي بواجهة عربية، وتتضمن توقيعاً إلكترونياً وأرشفة تلقائية، و٨٦ نوع إعلان جاهز الصياغة."
-     }
-    },
-    {
-     "@type": "Question",
-     "name": "هل حوكم متوافقة مع لائحة حوكمة الشركات؟",
-     "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "المنصة مصممة وفق لائحة حوكمة الشركات الصادرة عن هيئة السوق المالية السعودية ومتطلبات وزارة التجارة، ونتابع التحديثات التنظيمية ونحدّث المنصة وفقاً لها."
-     }
-    },
-    {
-     "@type": "Question",
-     "name": "هل يناسب حوكم الشركات الصغيرة؟",
-     "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "نعم. حوكم مصممة لخدمة الشركات بمختلف أحجامها، من الشركات الناشئة التي تسعى للمأسسة، إلى الشركات الكبرى والمدرجة. لدينا حلول مرنة تناسب كل مرحلة من مراحل نمو الشركة."
-     }
-    },
-    {
-     "@type": "Question",
-     "name": "كم يستغرق تطبيق المنصة في شركتنا؟",
-     "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "يختلف الوقت حسب حجم الشركة ووضعها الحالي وطبيعة متطلباتها. يشمل التطبيق مرحلة التقييم وبناء هيكل الحوكمة وتدريب الفريق والتشغيل الفعلي."
-     }
-    },
-    {
-     "@type": "Question",
-     "name": "هل تقدمون دعماً بعد التطبيق؟",
-     "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "بالتأكيد. نؤمن بالشراكة طويلة الأمد. نقدم دعماً مستمراً يشمل التحديثات التنظيمية، والتدريب للأعضاء الجدد، والمساندة الفنية، ومراجعات دورية لضمان فعالية الحوكمة."
-     }
-    }
-   ]
   },
   {
    "@type": "VideoObject",
@@ -551,20 +504,23 @@ try{ if(localStorage.getItem('hwkm_consent')==='granted') window.hwkmLoadTikTok(
 <script defer="" src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <style>.lang-btn{display:inline-block;background:transparent;border:1px solid rgba(255,255,255,.3);border-radius:4px;padding:8px 16px;font-family:inherit;font-size:.85rem;font-weight:700;color:#fff!important;text-decoration:none;cursor:pointer}.lang-btn:hover{background:rgba(255,255,255,.1)}
 </style><style>@media(min-width:901px){nav{padding:0 2rem}.nav-links{gap:1.25rem}.nav-links a{white-space:nowrap;font-size:.88rem}.nav-platform,.nav-cta{padding:8px 14px!important}.nav-logo img{height:44px}}@media(min-width:901px) and (max-width:1180px){nav{padding:0 1rem}.nav-links{gap:.75rem}.nav-links a{font-size:.8rem}.nav-platform,.nav-cta{padding:7px 10px!important}}</style>
+<style>#hero{min-height:auto;padding:112px 0 64px}.hero-content{grid-template-columns:1fr!important;max-width:1100px;text-align:center;gap:2.5rem}.hero-sub{max-width:780px;margin-left:auto;margin-right:auto}.hero-btns{justify-content:center}.hero-visual{display:block!important;width:100%}.hero-logo-wrap{width:100%!important;height:auto!important;max-width:1000px;margin:0 auto;padding:10px;border-radius:18px;display:block}.hero-logo-wrap img{width:100%!important;height:auto!important;border-radius:10px;object-fit:contain;display:block}@media(max-width:900px){.hero-content{padding:0 1rem!important}.hero-logo-wrap{padding:6px;border-radius:12px}}</style>
 </head>
 <body>
+<script>(function(){var m={"#about": "/about/", "#vision": "/about/#vision", "#partners": "/about/#partners", "#services": "/services/", "#advantages": "/why-hwkm/", "#clients-live": "/tadawul-pulse/", "#faq": "/faq/", "#blog": "/blog/", "#contact": "/contact/"};var h=location.hash;if(m[h]){location.replace(m[h])}})();</script>
+
 <a class="skip-link" href="#main">تخطي إلى المحتوى</a>
 <!-- NAV -->
 <nav id="nb">
-<a class="nav-logo" href="#hero">
+<a class="nav-logo" href="/">
 <img alt="حوكم HWKM — منصة الحوكمة المؤسسية" height="48" src="/assets/logo-96.webp" width="48"/>
 </a>
 <ul class="nav-links">
-<li><a href="#about">من نحن</a></li>
-<li><a href="#services">خدماتنا</a></li><li><a href="/entities/">لمن نخدم</a></li>
-<li><a href="#advantages">مميزاتنا</a></li>
-<li><a href="#clients-live">نبض تداول</a></li>
-<li><a href="#faq">الأسئلة الشائعة</a></li>
+<li><a href="/about/">من نحن</a></li>
+<li><a href="/services/">خدماتنا</a></li><li><a href="/entities/">لمن نخدم</a></li>
+<li><a href="/why-hwkm/">مميزاتنا</a></li>
+<li><a href="/tadawul-pulse/">نبض تداول</a></li>
+<li><a href="/faq/">الأسئلة الشائعة</a></li>
 <li><a href="/blog/">المدونة</a></li>
 <li><a class="nav-platform" href="https://hwkm.net/?mode=signup" onclick="if(window.ttq){ttq.track('Lead',{content_name:'Try_Platform_Direct_Signup'})}" rel="noopener" target="_blank">الفترة التجريبية</a></li>
 <li><a class="nav-cta" href="https://wa.me/966509015864?text=مرحباً، أرغب بالاستفسار عن منصة حوكم" onclick="if(window.ttq){ttq.track('Contact',{content_name:'WhatsApp_Nav'})}" rel="noopener" target="_blank">واتساب</a></li>
@@ -583,88 +539,20 @@ try{ if(localStorage.getItem('hwkm_consent')==='granted') window.hwkmLoadTikTok(
 <div class="hero-text">
 <div class="hero-badge">حوكم الآن متاحة للشركات</div>
 <h1 class="hero-title"><span>الحوكمة والمخاطر والامتثال</span><br/><span>في منصة واحدة</span></h1>
-<p class="hero-sub">حوكم هي المنصة الرقمية المتكاملة لإدارة الحوكمة والمخاطر والامتثال — الاجتماعات، التدقيق الداخلي، والإفصاحات النظامية، كل ذلك في منظومة عربية واحدة مصممة للسوق السعودي، وتناسب مختلف الكيانات: الشركات المساهمة المدرجة وغير المدرجة، والشركات ذات المسؤولية المحدودة، والمؤسسات الفردية، حيث تظهر لكل كيان الخدمات المناسبة له.</p>
+<p class="hero-sub">منصة رقمية عربية لإدارة الحوكمة والمخاطر والامتثال واجتماعات مجلس الإدارة والتدقيق الداخلي والإفصاحات، تناسب مختلف الكيانات في السعودية.</p>
 <div class="hero-btns">
 <a class="btn-p" href="https://hwkm.net/?mode=signup" onclick="if(window.ttq){ttq.track('Lead',{content_name:'Try_Platform_Direct_Signup'})}" rel="noopener" target="_blank">ابدأ فترتك التجريبية</a>
-<a class="btn-s" href="#contact">اشترك في المنصة</a>
-</div>
-<div class="hero-stats">
-<div><div class="stat-num">١٤</div><div class="stat-label">يوماً فترة تجريبية للمنصة</div></div>
-<div><div class="stat-num">7</div><div class="stat-label">حلول في منصة واحدة</div></div>
-<div><div class="stat-num">٤</div><div class="stat-label">أنواع كيانات تناسبها المنصة</div></div>
-<div><div class="stat-num">٨٦</div><div class="stat-label">نوع إعلان جاهز الصياغة لتداول</div></div>
+<a class="btn-s" href="/contact/">اشترك في المنصة</a>
 </div>
 </div>
 <div class="hero-visual">
 <div class="hero-logo-wrap" style="overflow:hidden;padding:0;background:transparent;border:2px solid rgba(184,151,42,.4)">
-<picture><source srcset="/assets/board-meeting-1.webp" type="image/webp"><img alt="اجتماع مجلس إدارة تُدار عبر منصة حوكم للحوكمة المؤسسية" decoding="async" fetchpriority="high" height="590" src="/assets/board-meeting-1.jpg" style="width:100%;height:100%;object-fit:cover;border-radius:22px;filter:brightness(0.9) saturate(0.85)" width="800"/></source></picture>
+<picture><source srcset="/assets/platform-dashboard.webp" type="image/webp"><img alt="لوحة التحكم الرئيسية في منصة حوكم للحوكمة والمخاطر والامتثال" decoding="async" fetchpriority="high" height="776" src="/assets/platform-dashboard.jpg" width="1400"/></source></picture>
 </div>
 </div>
 </div>
 </section>
 <!-- ABOUT -->
-<section id="about">
-<div class="container">
-<div class="about-grid">
-<div class="reveal" style="position:relative;padding-bottom:40px">
-<div class="about-card" style="padding:0;overflow:hidden;min-height:300px;position:relative">
-<picture><source srcset="/assets/board-meeting-2.webp" type="image/webp"><img alt="تصوّر رقمي لمفهوم الحوكمة المؤسسية" decoding="async" height="551" loading="lazy" src="/assets/board-meeting-2.jpg" style="width:100%;height:100%;object-fit:cover;min-height:300px;display:block;border-radius:16px" width="800"/></source></picture>
-<div style="position:absolute;bottom:0;right:0;left:0;background:linear-gradient(transparent,rgba(13,36,71,0.85));padding:1.5rem;border-radius:0 0 16px 16px">
-<div class="acard-lbl" style="font-size:.95rem;margin-bottom:.3rem">اجتماعات مجلس الإدارة</div>
-<div class="acard-txt" style="font-size:.85rem">إدارة احترافية لاجتماعات المجلس من التخطيط حتى التوثيق والقرارات.</div>
-</div>
-</div>
-<div class="about-float">حوكم — مبنية من التجربة</div>
-</div>
-<div class="reveal">
-<div class="stag">من نحن</div>
-<h2 class="stitle">قصتنا بدأت من داخل الشركات</h2>
-<p>لم تنشأ حوكم من نظرية أو دراسة أكاديمية — بل وُلدت من الميدان. على مدى أكثر من عقد، جلس فريقنا مع مجالس الإدارة والفرق التنفيذية في السوق السعودي، وعاش عن كثب التحديات الحقيقية التي تواجهها الشركات في تطبيق الحوكمة.</p>
-<p>رأينا سياسات كُتبت بعناية ولم تُطبَّق يوماً. شهدنا قرارات مصيرية تُتخذ شفهياً دون توثيق. ورصدنا كيف يضيع الوقت والجهد في إدارة الاجتماعات والوثائق عبر البريد الإلكتروني وملفات Excel.</p>
-<p>من هذا الواقع الميداني، ومن الإحباط من غياب حل عربي متكامل، وُلدت فكرة حوكم — منصة تأخذ الشركة بيدها من التقييم الأولي حتى التطبيق الفعلي للحوكمة على أرض الواقع.</p>
-<a class="btn-p" href="#contact" style="margin-top:1.5rem">تواصل معنا</a>
-</div>
-</div>
-</div>
-</section>
-<!-- VISION -->
-<section id="vision">
-<div class="container">
-<div style="text-align:center;max-width:600px;margin:0 auto">
-<div class="stag" style="color:var(--gold2)">رؤيتنا ورسالتنا وقيمنا</div>
-<h2 class="stitle" style="color:#fff"><span>نؤمن بحوكمة تُطبَّق</span><br/><span>لا تُكتب فقط</span></h2>
-</div>
-<div class="vision-grid">
-<div class="vcard reveal">
-<div class="vcard-icon">🎯</div>
-<h3>رؤيتنا</h3>
-<p>أن تكون حوكم المنصة الرائدة في الحوكمة المؤسسية بالسوق السعودي والخليجي، وأن تصبح الحوكمة السليمة معياراً أساسياً في كل شركة بغض النظر عن حجمها أو قطاعها.</p>
-</div>
-<div class="vcard reveal">
-<div class="vcard-icon">🚀</div>
-<h3>رسالتنا</h3>
-<p>تمكين الشركات من بناء حوكمة مؤسسية فعّالة وتطبيقها على أرض الواقع، من خلال منصة رقمية متكاملة وفريق متخصص يرافق العميل في كل خطوة — من التقييم حتى التطبيق الفعلي.</p>
-</div>
-<div class="vcard reveal">
-<div class="vcard-icon">⭐</div>
-<h3>موقعنا في السوق</h3>
-<p>في سوق سعودي متنامٍ لحلول الحوكمة والمخاطر والامتثال (GRC)، تجمع حوكم حلول الحوكمة كلها في منظومة عربية واحدة متكاملة.</p>
-</div>
-</div>
-<div style="margin-top:4rem">
-<h3 style="color:#fff;font-size:1.6rem;font-weight:800;text-align:center;margin-bottom:2rem">قيمنا</h3>
-<div class="values-grid">
-<div class="val-item reveal"><div class="val-icon">🎯</div><div class="val-text"><h4>الأثر الحقيقي</h4><p>نقيس نجاحنا بالتغيير الفعلي داخل الشركة، لا بعدد الاشتراكات أو العروض التقديمية.</p></div></div>
-<div class="val-item reveal"><div class="val-icon">🔒</div><div class="val-text"><h4>الأمانة والشفافية</h4><p>نقول ما نفعله ونفعل ما نقوله. مع عملائنا ومع شركائنا ومع أنفسنا.</p></div></div>
-<div class="val-item reveal"><div class="val-icon">🤝</div><div class="val-text"><h4>الشراكة لا البيع</h4><p>نرافق عميلنا كشريك استراتيجي في رحلة الحوكمة، لا كمورد يبيع برنامجاً ويمضي.</p></div></div>
-<div class="val-item reveal"><div class="val-icon">🌱</div><div class="val-text"><h4>التطوير المستمر</h4><p>نتطور مع السوق ومع عملائنا، ونضمن أن المنصة تواكب كل تغيير تنظيمي.</p></div></div>
-</div>
-</div>
-</div>
-</section>
-<!-- INTRO VIDEO — always visible above Services. Replace the <source> path below with
-     the final motion-graphics file once it's ready (drop it in the same folder as this
-     HTML file, e.g. "hwkm-intro.mp4", or point the src at a hosted URL). -->
 <section id="intro-video" style="background:linear-gradient(180deg,var(--dark) 0%,var(--blue) 100%);padding:70px 0">
 <div class="container" style="max-width:980px">
 <div class="iv-frame reveal">
@@ -679,147 +567,9 @@ try{ if(localStorage.getItem('hwkm_consent')==='granted') window.hwkmLoadTikTok(
 </div>
 </div>
 </section>
-<!-- SERVICES -->
-<section id="services">
-<div class="container">
-<div class="stag">خدماتنا</div>
-<h2 class="stitle">حلول حوكم المتكاملة</h2>
-<p class="ssub">سبعة حلول في منصة واحدة — مبنية للسوق السعودي ووفق لائحة حوكمة الشركات من اليوم الأول. اضغط على أي خدمة لتعرف كيف تخدمك. <a href="/entities/" style="color:inherit;font-weight:700;text-decoration:underline">تعرّف على الكيانات التي نخدمها ←</a></p>
-<div class="srv-grid" id="srvTrack"><div class="srv-mcard"><div class="srv-mcard-head"><div class="srv-num">٠١</div><div class="srv-icon-wrap">🏛</div><h3>الحوكمة المؤسسية</h3><div class="srv-hint">التفاصيل <span class="srv-hint-arrow">▾</span></div></div><div class="srv-mcard-body"><p>حوكمة تُبنى بشكل صحيح من أول مرة، لا تُعاد صياغتها كل عام. مجلس، لجان، سياسات، وصلاحيات — في هيكل واحد يعكس شركتك كما هي، لا كما في القوالب الجاهزة.</p><p class="srv-result"><strong>النتيجة:</strong> هيكل حوكمة موثّق ومعتمد، يساعدك على الاستعداد لأي طلب من الجهات الرقابية.</p><ul class="srv-list"><li>هيكل مجلس الإدارة واللجان المتخصصة</li><li>بناء وتوثيق السياسات والإجراءات واللوائح</li><li>مصفوفة الصلاحيات رقمياً</li><li>تقييم أداء أعضاء المجلس</li><li>تقييم فعالية الحوكمة</li></ul><a class="srv-more" href="/governance/">تعرّف على هذا الحل بالتفصيل ←</a></div></div><div class="srv-mcard"><div class="srv-mcard-head"><div class="srv-num">٠٢</div><div class="srv-icon-wrap">📅</div><h3>إدارة اجتماعات مجلس الإدارة</h3><div class="srv-hint">التفاصيل <span class="srv-hint-arrow">▾</span></div></div><div class="srv-mcard-body"><p>من الدعوة إلى التوقيع، دورة اجتماع كاملة بلا ورق ولا رسائل متفرقة. كل عضو مجلس يصله كل شيء في مكان واحد، وأنت تعرف بالضبط أين توقف كل قرار.</p><p class="srv-result"><strong>النتيجة:</strong> محاضر موقّعة وقرارات موثّقة، متاحة فوراً وقت الحاجة لها.</p><ul class="srv-list"><li>جدولة الاجتماعات وإرسال الدعوات</li><li>توزيع جداول الأعمال والوثائق</li><li>تسجيل المحاضر والقرارات</li><li>التصويت والتوقيع الإلكتروني</li></ul><a class="srv-more" href="/board-meetings/">تعرّف على هذا الحل بالتفصيل ←</a></div></div><div class="srv-mcard"><div class="srv-mcard-head"><div class="srv-num">٠٣</div><div class="srv-icon-wrap">🤝</div><h3>إدارة اجتماعات الجمعيات العامة</h3><div class="srv-hint">التفاصيل <span class="srv-hint-arrow">▾</span></div></div><div class="srv-mcard-body"><p>جمعية عامة تسير بثقة من أول دعوة إلى آخر محضر — النصاب، التصويت، والتوثيق، كلها مبنية وفق الاشتراطات النظامية لتسهّل عليك الالتزام دون أن تحفظها عن ظهر قلب.</p><p class="srv-result"><strong>النتيجة:</strong> جمعية عامة منظّمة وفق الإجراءات النظامية، مع توثيق يقلّل الثغرات الإجرائية.</p><ul class="srv-list"><li>الإعداد والدعوة للجمعية العامة</li><li>إدارة التصويت وحساب النصاب</li><li>توثيق القرارات والمحاضر</li><li>الامتثال للمتطلبات النظامية</li></ul><a class="srv-more" href="/general-assemblies/">تعرّف على هذا الحل بالتفصيل ←</a></div></div><div class="srv-mcard"><div class="srv-mcard-head"><div class="srv-num">٠٤</div><div class="srv-icon-wrap">🔍</div><h3>التدقيق الداخلي</h3><div class="srv-hint">التفاصيل <span class="srv-hint-arrow">▾</span></div></div><div class="srv-mcard-body"><p>فريق التدقيق الداخلي يخطط وينفذ ويتابع من مكان واحد — بدل ملفات إكسل متناثرة توصل للجنة المراجعة متأخرة.</p><p class="srv-result"><strong>النتيجة:</strong> لجنة المراجعة تستلم تقارير دقيقة في وقتها، لا بعد فوات الأثر.</p><ul class="srv-list"><li>إعداد خطط التدقيق السنوية</li><li>تنفيذ مهام المراجعة ورفع التقارير</li><li>متابعة توصيات التدقيق</li><li>تقارير لجنة المراجعة</li></ul><a class="srv-more" href="/internal-audit/">تعرّف على هذا الحل بالتفصيل ←</a></div></div><div class="srv-mcard"><div class="srv-mcard-head"><div class="srv-num">٠٥</div><div class="srv-icon-wrap">⚠️</div><h3>إدارة المخاطر</h3><div class="srv-hint">التفاصيل <span class="srv-hint-arrow">▾</span></div></div><div class="srv-mcard-body"><p>الخطر الذي لا تراه هو الأخطر. سجل حي يكشف كل خطر، يرتّبه حسب الأولوية، ويتابع خطة معالجته حتى يُغلق فعلاً — لا حتى يُنسى.</p><p class="srv-result"><strong>النتيجة:</strong> مخاطر مُدارة بأولوية واضحة، للحدّ من المفاجآت التي قد تكلّف الشركة لاحقاً.</p><ul class="srv-list"><li>سجل المخاطر المؤسسية</li><li>تقييم المخاطر حسب الأولوية</li><li>خطط المعالجة والتخفيف</li><li>مؤشرات المخاطر الرئيسية KRIs</li></ul><a class="srv-more" href="/risk-management/">تعرّف على هذا الحل بالتفصيل ←</a></div></div><div class="srv-mcard"><div class="srv-mcard-head"><div class="srv-num">٠٦</div><div class="srv-icon-wrap">✅</div><h3>الامتثال</h3><div class="srv-hint">التفاصيل <span class="srv-hint-arrow">▾</span></div></div><div class="srv-mcard-body"><p>امتثال أكثر وضوحاً. تنبيهات قبل المواعيد، سجل التزامات محدّث، وتقارير جاهزة — بدل أن تكتشف التزاماً فائتاً بعد فوات الأوان.</p><p class="srv-result"><strong>النتيجة:</strong> سجل التزام منظّم يسهّل الاستعداد لأي تدقيق أو مراجعة رقابية.</p><ul class="srv-list"><li>متابعة الامتثال لهيئة السوق المالية</li><li>سجل الالتزامات التنظيمية</li><li>تنبيهات المواعيد والمتطلبات</li><li>تقارير الامتثال الدورية</li></ul><a class="srv-more" href="/compliance/">تعرّف على هذا الحل بالتفصيل ←</a></div></div><div class="srv-mcard" style="border:1px solid rgba(212,175,55,.35)"><div class="srv-mcard-head"><div class="srv-num">٠٧</div><div class="srv-icon-wrap">📢</div><h3>الإفصاحات للشركات المدرجة (إعلانات تداول)</h3><div class="srv-hint">التفاصيل <span class="srv-hint-arrow">▾</span></div></div><div class="srv-mcard-body"><p>٨٦ نوع إعلان جاهز الصياغة، موقّع إلكترونياً، ومجهّز للرفع على تداول خلال دقائق — لا ساعات مع المستشار القانوني لصياغة كل إعلان من الصفر.</p><p class="srv-result"><strong>النتيجة:</strong> الإفصاحات للشركات المدرجة (إعلانات تداول) تُرفع بدقة وسرعة، مع تقليل مخاطر الصياغة والتأخير.</p><ul class="srv-list"><li style="font-weight:800;color:var(--dark)">توليد ٨٦ نوع إعلان جاهز الصياغة</li><li>مراجعة وتجهيز الإعلان قبل رفعه على تداول</li><li>توقيع إلكتروني على المستند قبل الاعتماد</li><li>أرشفة ومتابعة حالة كل إعلان</li></ul><a class="srv-more" href="/announcements/">تعرّف على هذا الحل بالتفصيل ←</a></div></div></div>
-</div>
-</section>
-<!-- WHY HWKM (ADVANTAGES) -->
-<section id="advantages" style="background:linear-gradient(180deg,var(--dark) 0%,var(--blue) 100%);color:#fff">
-<div class="container">
-<div class="stag" style="color:var(--gold3)">لماذا حوكم</div>
-<h2 class="stitle" style="color:#fff">مميزاتنا</h2>
-<p class="ssub" style="color:var(--gray2)">ليست مجرد ميزات، بل الأسباب التي تجعل عملاءنا لا يعودون إلى طريقتهم القديمة.</p>
-<div class="adv-grid" id="advTrack"><div class="adv-mcard"><div class="adv-mcard-head"><div class="adv-icon">🧩</div><h4>منصة واحدة تكفي</h4></div><div class="adv-mcard-body"><p>توقف عن التنقل بين إكسل والواتساب والبريد وخمس أدوات مختلفة. الحوكمة، الاجتماعات، التدقيق، المخاطر، الامتثال، والإعلانات — في مكان واحد فقط.</p></div></div><div class="adv-mcard"><div class="adv-mcard-head"><div class="adv-icon">🎓</div><h4>نتابع اللوائح، فلا تُفاجأ بها</h4></div><div class="adv-mcard-body"><p>كل تحديث تنظيمي من هيئة السوق المالية ووزارة التجارة يصل لمنصتك أولاً بأول — أنت تدير شركتك، ونحن نتابع الأنظمة نيابة عنك.</p></div></div><div class="adv-mcard"><div class="adv-mcard-head"><div class="adv-icon">⚖️</div><h4>الامتثال مبني بالأساس، لا مُضاف لاحقاً</h4></div><div class="adv-mcard-body"><p>كل شاشة بالمنصة مصممة أصلاً على لائحة حوكمة الشركات ومعايير التدقيق الداخلي المعتمدة — فلا تحتاج إلى التساؤل عمّا إذا كانت طريقة عملك متوافقة؛ فالمنصة مبنية على أساسها.</p></div></div><div class="adv-mcard"><div class="adv-mcard-head"><div class="adv-icon">💻</div><h4>وداعاً للورق</h4></div><div class="adv-mcard-body"><p>من أول وثيقة إلى آخر توقيع، رحلة رقمية كاملة — لا طابعة، ولا أرشيف ورقي، ولا ملف ضائع في درج أحد.</p></div></div><div class="adv-mcard"><div class="adv-mcard-head"><div class="adv-icon">📢</div><h4>الإفصاحات للشركات المدرجة (إعلانات تداول) بدقائق لا أيام</h4></div><div class="adv-mcard-body"><p>٨٦ نوع إعلان جاهز الصياغة، موقّع إلكترونياً، ومهيأ للرفع على تداول عند الحاجة.</p></div></div><div class="adv-mcard"><div class="adv-mcard-head"><div class="adv-icon">🗳️</div><h4>ترشيح الأعضاء بلا معاملات ورقية</h4></div><div class="adv-mcard-body"><p>من تقديم طلب الترشيح إلى اعتماده، العملية كاملة أونلاين — بلا نماذج مطبوعة ولا انتظار توقيعات.</p></div></div><div class="adv-mcard"><div class="adv-mcard-head"><div class="adv-icon">🧑‍💼</div><h4>شبكة مزودي خدمات جاهزة</h4></div><div class="adv-mcard-body"><p>تحتاج مراجعاً خارجياً أو استشارة قانونية أو دراسة جدوى؟ اطلبها من داخل المنصة مباشرة، بدل البحث من الصفر كل مرة.</p></div></div></div>
-</div>
-</section>
-<!-- PARTNERS -->
-<section id="partners">
-<div class="container">
-<div style="text-align:center;max-width:700px;margin:0 auto 3rem">
-<div class="stag" style="display:block;text-align:center">شركاء النجاح</div>
-<h2 class="stitle" style="text-align:center">نفخر بشراكاتنا الاستراتيجية</h2>
-<p class="ssub" style="text-align:center;margin:0 auto">نعمل مع عدد من الشركاء الاستراتيجيين لنقدم خدمة على أعلى جودة تناسب عملاؤنا.</p>
-</div>
-<div class="prt-pillrow reveal" id="prtMarqueeTrack"><div class="prt-pill"><img alt="شركة ريوسيرف اندستريال سوليوشنز" decoding="async" height="28" loading="lazy" src="/assets/partners/rheoserve.webp" style="height:28px;max-width:140px;object-fit:contain" width="56"/></div><div class="prt-pill"><img alt="شركة الدراسات الحديثة لخدمات الأعمال" decoding="async" height="28" loading="lazy" src="/assets/partners/modern-studies.webp" style="height:28px;max-width:140px;object-fit:contain" width="42"/></div><div class="prt-pill"><img alt="شركة أسوار المتحدة القابضة" decoding="async" height="28" loading="lazy" src="/assets/partners/aswar.webp" style="height:28px;max-width:140px;object-fit:contain" width="60"/></div><div class="prt-pill"><img alt="شركة ركاز نجد" decoding="async" height="28" loading="lazy" src="/assets/partners/rakaz-najd.webp" style="height:28px;max-width:140px;object-fit:contain" width="57"/></div><div class="prt-pill"><img alt="شركة أنفاس العناية" decoding="async" height="28" loading="lazy" src="/assets/partners/anfas-care.webp" style="height:28px;max-width:140px;object-fit:contain" width="33"/></div><div class="prt-pill"><img alt="شركة نقوة للاستقدام" decoding="async" height="28" loading="lazy" src="/assets/partners/nuqwa.webp" style="height:28px;max-width:140px;object-fit:contain" width="72"/></div><div class="prt-pill"><img alt="مكتب حلفاء النخبة للمحاماة" decoding="async" height="28" loading="lazy" src="/assets/partners/elite-allies-law.webp" style="height:28px;max-width:140px;object-fit:contain" width="28"/></div><div class="prt-pill"><img alt="شركة أنماط المراقبة" decoding="async" height="28" loading="lazy" src="/assets/partners/anmat-almuraqaba.webp" style="height:28px;max-width:140px;object-fit:contain" width="70"/></div><div class="prt-pill"><img alt="شركة تكافؤ للمحاماة والاستشارات القانونية" decoding="async" height="28" loading="lazy" src="/assets/partners/takafo-law.webp" style="height:28px;max-width:140px;object-fit:contain" width="28"/></div><div class="prt-pill"><img alt="ماب سولوشنز للاستشارات" decoding="async" height="28" loading="lazy" src="/assets/partners/map-solutions.webp" style="height:28px;max-width:140px;object-fit:contain" width="23"/></div><div class="prt-pill"><img alt="Elite for Investment" decoding="async" height="28" loading="lazy" src="/assets/partners/elite-investment.webp" style="height:28px;max-width:140px;object-fit:contain" width="40"/></div><div class="prt-pill"><img alt="إتقان لخدمات الأعمال" decoding="async" height="28" loading="lazy" src="/assets/partners/itqan.webp" style="height:28px;max-width:140px;object-fit:contain" width="28"/></div></div>
-<p style="text-align:center;margin-top:2rem;color:var(--gray);font-size:.9rem"><span>هل أنت مهتم بالانضمام لشركاء نجاح حوكم؟</span> <a href="#contact" style="color:var(--gold);font-weight:700">تواصل معنا</a></p>
-</div>
-</section>
-<!-- LIVE CLIENTS FEED: TADAWUL ANNOUNCEMENTS + UPCOMING AGMs -->
-<section id="clients-live" style="background:var(--offwhite)">
-<div class="container">
-<div class="stag">شفافية حية</div>
-<h2 class="stitle">نبض تداول</h2>
-<p class="ssub">موجز مباشر للإعلانات الرسمية والجمعيات العامة القادمة التي يولّدها عملاؤنا عبر المنصة — دليل ثقة حقيقي من شركات مدرجة تستخدم حوكم.</p>
-<div class="clv-grid">
-<div class="clv-col reveal">
-<div class="clv-col-head">
-<span class="clv-col-icon">📢</span>
-<h3>أحدث إعلانات عملائنا</h3>
-<span class="clv-count" id="clvAnnCount"></span>
-</div>
-<div class="clv-list" id="clvAnnList">
-<div class="clv-empty">جارِ تحميل أحدث الإعلانات…</div>
-</div>
-<button class="clv-more" id="clvAnnMore" style="display:none">عرض المزيد</button>
-</div>
-<div class="clv-col reveal">
-<div class="clv-col-head">
-<span class="clv-col-icon">🤝</span>
-<h3>الجمعيات العامة القادمة</h3>
-<span class="clv-count" id="clvMeetCount"></span>
-</div>
-<div class="clv-list" id="clvMeetList">
-<div class="clv-empty">جارِ تحميل الاجتماعات القادمة…</div>
-</div>
-<button class="clv-more" id="clvMeetMore" style="display:none">عرض المزيد</button>
-</div>
-</div>
-</div>
-</section>
-<!-- FAQ -->
-<section id="faq">
-<div class="container">
-<div class="stag">الأسئلة الشائعة</div>
-<h2 class="stitle">أجوبة على أكثر الأسئلة شيوعاً</h2>
-<p class="ssub">إذا لم تجد إجابة على سؤالك، لا تتردد في التواصل معنا مباشرة.</p>
-<div class="faq-grid">
-<div class="faq-item reveal"><div class="faq-q" onclick="tf(this)">ما الذي يميز حوكم؟<span class="faq-arrow">▼</span></div><div class="faq-a">حوكم منظومة متكاملة للحوكمة والمخاطر والامتثال تجمع سبعة حلول في منصة واحدة: الحوكمة المؤسسية، واجتماعات مجلس الإدارة، والجمعيات العامة، والتدقيق الداخلي، وإدارة المخاطر، والامتثال، والإفصاحات للشركات المدرجة (إعلانات تداول). وهي مصممة للسوق السعودي بواجهة عربية، وتتضمن توقيعاً إلكترونياً وأرشفة تلقائية، و٨٦ نوع إعلان جاهز الصياغة.</div></div>
-<div class="faq-item reveal"><div class="faq-q" onclick="tf(this)">هل حوكم متوافقة مع لائحة حوكمة الشركات؟<span class="faq-arrow">▼</span></div><div class="faq-a">المنصة مصممة وفق لائحة حوكمة الشركات الصادرة عن هيئة السوق المالية السعودية ومتطلبات وزارة التجارة، ونتابع التحديثات التنظيمية ونحدّث المنصة وفقاً لها.</div></div>
-<div class="faq-item reveal"><div class="faq-q" onclick="tf(this)">هل يناسب حوكم الشركات الصغيرة؟<span class="faq-arrow">▼</span></div><div class="faq-a">نعم. حوكم مصممة لخدمة الشركات بمختلف أحجامها، من الشركات الناشئة التي تسعى للمأسسة، إلى الشركات الكبرى والمدرجة. لدينا حلول مرنة تناسب كل مرحلة من مراحل نمو الشركة.</div></div>
-<div class="faq-item reveal"><div class="faq-q" onclick="tf(this)">كم يستغرق تطبيق المنصة في شركتنا؟<span class="faq-arrow">▼</span></div><div class="faq-a">يختلف الوقت حسب حجم الشركة ووضعها الحالي وطبيعة متطلباتها. يشمل التطبيق مرحلة التقييم وبناء هيكل الحوكمة وتدريب الفريق والتشغيل الفعلي.</div></div>
-<div class="faq-item reveal"><div class="faq-q" onclick="tf(this)">هل تقدمون دعماً بعد التطبيق؟<span class="faq-arrow">▼</span></div><div class="faq-a">بالتأكيد. نؤمن بالشراكة طويلة الأمد. نقدم دعماً مستمراً يشمل التحديثات التنظيمية، والتدريب للأعضاء الجدد، والمساندة الفنية، ومراجعات دورية لضمان فعالية الحوكمة.</div></div>
-</div>
-</div>
-</section>
-<!-- BLOG -->
-<section id="blog">
-<div class="container">
-<div class="stag">مدونة حوكم</div>
-<h2 class="stitle">مقالات في الحوكمة المؤسسية</h2>
-<p class="ssub">رؤى وتحليلات من خبراء حوكم في مجال الحوكمة المؤسسية وإدارة المخاطر والامتثال.</p>
-<div class="blog-grid"><div class="blog-card reveal"><div class="blog-img"><div class="blog-img-i">📋</div><div class="blog-cat">مجلس الإدارة</div></div><div class="blog-body"><div class="blog-date"><time datetime="2026-10-11">١١ أكتوبر ٢٠٢٦</time></div><h3 class="blog-title"><a href="/blog/board-meeting-governance/" style="color:inherit;text-decoration:none">حوكمة اجتماعات مجلس الإدارة: من الدعوة إلى القرار الموثّق</a></h3><p class="blog-exc">من الدعوة وجدول الأعمال إلى المحضر ومتابعة القرارات، كيف تجعل كل قرار قابلاً للإثبات؟</p><a class="blog-read" href="/blog/board-meeting-governance/">اقرأ المزيد ←</a></div></div><div class="blog-card reveal"><div class="blog-img"><div class="blog-img-i">🛡</div><div class="blog-cat">الحوكمة والمخاطر</div></div><div class="blog-body"><div class="blog-date"><time datetime="2026-10-11">١١ أكتوبر ٢٠٢٦</time></div><h3 class="blog-title"><a href="/blog/three-lines-of-defense/" style="color:inherit;text-decoration:none">خطوط الدفاع الثلاثة: الحوكمة وإدارة المخاطر والتدقيق الداخلي</a></h3><p class="blog-exc">كيف يوزّع نموذج خطوط الدفاع الثلاثة المسؤوليات بين الإدارة وإدارة المخاطر والتدقيق الداخلي؟</p><a class="blog-read" href="/blog/three-lines-of-defense/">اقرأ المزيد ←</a></div></div><div class="blog-card reveal"><div class="blog-img" style="background:linear-gradient(135deg,#0D2447,#B8972A)"><div class="blog-img-i">🚀</div><div class="blog-cat">الشركات الصغيرة والمتوسطة</div></div><div class="blog-body"><div class="blog-date"><time datetime="2026-06-10">١٠ يونيو ٢٠٢٦</time></div><h3 class="blog-title"><a href="/blog/governance-smes-growth-impact/" style="color:inherit;text-decoration:none">الحوكمة في الشركات الصغيرة والمتوسطة: كيف تسرّع نموك؟</a></h3><p class="blog-exc">لماذا تحتاج الشركات الصغيرة والمتوسطة إلى الحوكمة المؤسسية قبل التمويل والنمو؟ دليل عملي لأثر الحوكمة على الجذب الاستثماري والاستقرار التشغيلي...</p><a class="blog-read" href="/blog/governance-smes-growth-impact/">اقرأ المزيد ←</a></div></div><div class="blog-card reveal"><div class="blog-img"><div class="blog-img-i">🏛</div><div class="blog-cat">الحوكمة</div></div><div class="blog-body"><div class="blog-date"><time datetime="2026-05-15">١٥ مايو ٢٠٢٦</time></div><h3 class="blog-title"><a href="/blog/corporate-governance-saudi-arabia-reality-challenges/" style="color:inherit;text-decoration:none">الحوكمة المؤسسية في السعودية: الواقع والتحديات وما يجب تغييره</a></h3><p class="blog-exc">رغم التقدم الملحوظ في السنوات الأخيرة، لا تزال الحوكمة في كثير من الشركات السعودية حبيسة الوثائق والتقارير...</p><a class="blog-read" href="/blog/corporate-governance-saudi-arabia-reality-challenges/">اقرأ المزيد ←</a></div></div><div class="blog-card reveal"><div class="blog-img" style="background:linear-gradient(135deg,#1A3A6B,#B8972A)"><div class="blog-img-i">📋</div><div class="blog-cat">مجلس الإدارة</div></div><div class="blog-body"><div class="blog-date"><time datetime="2026-05-02">٢ مايو ٢٠٢٦</time></div><h3 class="blog-title"><a href="/blog/effective-board-seven-principles/" style="color:inherit;text-decoration:none">مجلس الإدارة الفعّال: سبعة مبادئ لا يمكن تجاهلها</a></h3><p class="blog-exc">مجلس الإدارة ليس مجرد هيئة شكلية تجتمع أربع مرات في السنة. عندما يعمل المجلس بشكل صحيح يكون أقوى أداة لحماية الشركة ونموها...</p><a class="blog-read" href="/blog/effective-board-seven-principles/">اقرأ المزيد ←</a></div></div><div class="blog-card reveal"><div class="blog-img" style="background:linear-gradient(135deg,#0a1628,#1e4d8c)"><div class="blog-img-i">🤝</div><div class="blog-cat">الجمعية العامة</div></div><div class="blog-body"><div class="blog-date"><time datetime="2026-04-18">١٨ أبريل ٢٠٢٦</time></div><h3 class="blog-title"><a href="/blog/general-assembly-shareholders-guide/" style="color:inherit;text-decoration:none">الجمعية العامة للمساهمين: دليلك الكامل للتحضير والإدارة</a></h3><p class="blog-exc">الجمعية العامة هي اللحظة الأكثر شفافية في حياة الشركة. كيف تحضّر لها؟ وما المتطلبات النظامية وفق اللوائح السعودية؟...</p><a class="blog-read" href="/blog/general-assembly-shareholders-guide/">اقرأ المزيد ←</a></div></div></div><div class="blog-all"><a href="/blog/">عرض كل المقالات ←</a></div>
-</div>
-</section>
-<!-- CONTACT -->
-<section id="contact">
-<div class="container">
-<div class="contact-grid">
-<div class="reveal">
-<div class="stag" style="color:var(--gold2)">تواصل معنا</div>
-<h2 class="stitle" style="color:#fff"><span>هل أنت مستعد لترى حوكم</span><br/><span>تعمل داخل شركتك؟</span></h2>
-<p class="ssub" style="color:rgba(255,255,255,.6)">ابدأ فترتك التجريبية أو اشترك في المنصة، وتعرّف بنفسك على كيفية إدارة الحوكمة والمخاطر والامتثال من مكان واحد.</p>
-<a class="btn-p" href="https://wa.me/966509015864?text=%D8%A3%D8%B1%D9%8A%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B4%D8%AA%D8%B1%D8%A7%D9%83%20%D9%81%D9%8A%20%D9%85%D9%86%D8%B5%D8%A9%20%D8%AD%D9%88%D9%83%D9%85" onclick="if(window.ttq){ttq.track('Contact',{content_name:'WhatsApp_CTA_Button'})}" rel="noopener" style="display:inline-flex;align-items:center;gap:.6rem;margin-bottom:2rem" target="_blank">
-          📅 <span>تحدّث معنا للاشتراك في المنصة</span>
-</a>
-<div class="contact-details">
-<div class="ci"><div class="ci-icon">📧</div>info@hwkm.net</div>
-<div class="ci"><a href="https://wa.me/966509015864" onclick="if(window.ttq){ttq.track('Contact',{content_name:'WhatsApp_ContactInfo'})}" rel="noopener" style="color:inherit;text-decoration:none;display:flex;align-items:center;gap:1rem" target="_blank"><div class="ci-icon">📞</div>0509015864 (واتساب)</a></div>
-<div class="ci"><div class="ci-icon">🌐</div><a href="https://web.hwkm.net" style="color:rgba(255,255,255,.8);text-decoration:none" target="_blank">web.hwkm.net</a></div>
-<div class="ci"><div class="ci-icon">📍</div><span>الرياض، المملكة العربية السعودية</span></div>
-</div>
-</div>
-<form action="https://formspree.io/f/mojogpon" class="cform reveal" method="POST" onsubmit="handleContactSubmit(event)">
-<input aria-hidden="true" autocomplete="off" name="_gotcha" style="position:absolute;width:1px;height:1px;opacity:0;pointer-events:none" tabindex="-1" type="text"/>
-<div class="frow">
-<div class="fg"><label for="hw-name">الاسم الكامل</label><input id="hw-name" name="name" placeholder="اسمك" required="" type="text"/></div>
-<div class="fg"><label for="hw-company">الشركة</label><input id="hw-company" name="company" placeholder="اسم الشركة" type="text"/></div>
-</div>
-<div class="fg"><label for="hw-email">البريد الإلكتروني</label><input id="hw-email" name="email" placeholder="email@company.com" required="" type="email"/></div>
-<div class="fg"><label for="hw-phone">رقم الجوال</label><input dir="ltr" id="hw-phone" name="phone" placeholder="05XXXXXXXX" type="tel"/></div>
-<div class="fg"><label for="hw-entity">نوع الجهة</label>
-<select id="hw-entity" name="entity_type">
-<option value="">اختر نوع الجهة</option>
-<option>شركة مساهمة مدرجة</option>
-<option>شركة مساهمة غير مدرجة</option>
-<option>شركة ذات مسؤولية محدودة</option>
-<option>مؤسسة فردية</option>
-<option>أخرى</option>
-</select>
-</div>
-<div class="fg"><label for="hw-type">نوع الاستفسار</label>
-<select id="hw-type" name="inquiry_type">
-<option value="">اختر نوع الاستفسار</option>
-<option>أحتاج حوكمة</option>
-<option>أحتاج إدارة اجتماعات</option>
-<option>أحتاج تدقيقاً داخلياً</option>
-<option>أحتاج إدارة مخاطر</option>
-<option>شراكة استراتيجية</option>
-<option>معرفة المزيد</option>
-</select>
-</div>
-<div class="fg"><label for="hw-msg">رسالتك</label><textarea id="hw-msg" name="message" placeholder="أخبرنا عن شركتك واحتياجاتك..."></textarea></div>
-<button class="btn-sub" type="submit">إرسال الرسالة</button>
-</form>
-</div>
-</div>
-</section>
-<!-- FOOTER -->
-</main>
+
+<style>.hub{padding:70px 0;background:var(--offwhite)}.hub-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1.25rem}.hub-tile{display:flex;flex-direction:column;gap:.5rem;background:#fff;border:1px solid #e8eef8;border-radius:16px;padding:1.6rem 1.3rem;text-decoration:none;color:var(--dark);transition:all .25s;position:relative}.hub-tile:hover{border-color:var(--gold);transform:translateY(-4px);box-shadow:0 10px 28px rgba(13,36,71,.12)}.hub-ic{font-size:2rem}.hub-t{font-size:1.15rem;font-weight:800}.hub-d{font-size:.88rem;color:#5b6b85;line-height:1.7}@media(max-width:900px){.hub-grid{grid-template-columns:repeat(2,1fr);gap:.9rem}.hub-tile{padding:1.2rem 1rem}}@media(max-width:380px){.hub-grid{grid-template-columns:1fr}}</style>
+<section class="hub" id="hub"><div class="container"><div class="hub-grid"><a class="hub-tile" href="/services/"><span class="hub-ic">🏛</span><span class="hub-t">الخدمات</span><span class="hub-d">سبعة حلول للحوكمة والمخاطر والامتثال</span></a><a class="hub-tile" href="/entities/"><span class="hub-ic">🏢</span><span class="hub-t">لمن نخدم</span><span class="hub-d">مدرجة، غير مدرجة، محدودة، وفردية</span></a><a class="hub-tile" href="/why-hwkm/"><span class="hub-ic">✨</span><span class="hub-t">لماذا حوكم</span><span class="hub-d">ما يميّز المنصة</span></a><a class="hub-tile" href="/tadawul-pulse/"><span class="hub-ic">📈</span><span class="hub-t">نبض تداول</span><span class="hub-d">أحدث إعلانات واجتماعات الشركات المدرجة</span></a><a class="hub-tile" href="/blog/"><span class="hub-ic">📚</span><span class="hub-t">المدونة</span><span class="hub-d">مقالات في الحوكمة والمخاطر</span></a><a class="hub-tile" href="/faq/"><span class="hub-ic">❓</span><span class="hub-t">الأسئلة الشائعة</span><span class="hub-d">أجوبة سريعة</span></a><a class="hub-tile" href="/about/"><span class="hub-ic">👥</span><span class="hub-t">من نحن</span><span class="hub-d">قصتنا ورؤيتنا وشركاؤنا</span></a><a class="hub-tile" href="/contact/"><span class="hub-ic">💬</span><span class="hub-t">تواصل معنا</span><span class="hub-d">اشترك في المنصة أو استفسر</span></a></div></div></section>
 <footer>
 <div class="container">
 <div class="footer-grid">
@@ -834,9 +584,9 @@ try{ if(localStorage.getItem('hwkm_consent')==='granted') window.hwkmLoadTikTok(
 <a aria-label="تيك توك" href="https://www.tiktok.com/@hwkm.1?_r=1&amp;_t=ZS-97vCxe8q09w" rel="noopener" target="_blank"><svg fill="currentColor" height="18" viewbox="0 0 24 24" width="18"><path d="M16.6 5.82c-.9-.98-1.4-2.25-1.4-3.57h-3.13v13.44c0 1.6-1.3 2.9-2.9 2.9a2.9 2.9 0 0 1-2.9-2.9 2.9 2.9 0 0 1 2.9-2.9c.28 0 .55.04.8.11V9.7a6.06 6.06 0 0 0-.8-.05A6.05 6.05 0 0 0 3.12 15.7 6.05 6.05 0 0 0 9.17 21.75a6.05 6.05 0 0 0 6.05-6.05V9.01a9.1 9.1 0 0 0 5.34 1.71V7.6c-1.4 0-2.75-.55-3.96-1.78z"></path></svg></a>
 </div>
 </div>
-<div class="footer-col"><h4>الشركة</h4><ul><li><a href="/entities/">لمن نخدم</a></li><li><a href="#about">من نحن</a></li><li><a href="#vision">رؤيتنا</a></li><li><a href="#partners">شركاؤنا</a></li><li><a href="#contact">تواصل معنا</a></li></ul></div>
+<div class="footer-col"><h4>الشركة</h4><ul><li><a href="/entities/">لمن نخدم</a></li><li><a href="/about/">من نحن</a></li><li><a href="/about/#vision">رؤيتنا</a></li><li><a href="/about/#partners">شركاؤنا</a></li><li><a href="/contact/">تواصل معنا</a></li></ul></div>
 <div class="footer-col"><h4>الخدمات</h4><ul><li><a href="/governance/">الحوكمة المؤسسية</a></li><li><a href="/board-meetings/">اجتماعات مجلس الإدارة</a></li><li><a href="/general-assemblies/">الجمعيات العامة</a></li><li><a href="/internal-audit/">التدقيق الداخلي</a></li><li><a href="/risk-management/">إدارة المخاطر</a></li><li><a href="/compliance/">الامتثال</a></li><li><a href="/announcements/">الإفصاحات للشركات المدرجة (إعلانات تداول)</a></li></ul></div>
-<div class="footer-col"><h4>المنصة</h4><ul><li><a href="https://hwkm.net/?mode=signup" onclick="if(window.ttq){ttq.track('Lead',{content_name:'Try_Platform_Direct_Signup'})}" rel="noopener" target="_blank">تجربة المنصة</a></li><li><a href="/blog/">المدونة</a></li><li><a href="#faq">الأسئلة الشائعة</a></li><li><a href="/privacy/">سياسة الخصوصية</a></li><li><a href="/terms/">الشروط والأحكام</a></li></ul></div>
+<div class="footer-col"><h4>المنصة</h4><ul><li><a href="https://hwkm.net/?mode=signup" onclick="if(window.ttq){ttq.track('Lead',{content_name:'Try_Platform_Direct_Signup'})}" rel="noopener" target="_blank">تجربة المنصة</a></li><li><a href="/blog/">المدونة</a></li><li><a href="/faq/">الأسئلة الشائعة</a></li><li><a href="/privacy/">سياسة الخصوصية</a></li><li><a href="/terms/">الشروط والأحكام</a></li></ul></div>
 </div>
 <div class="footer-btm">
 <p>© ٢٠٢٦ حوكم HWKM. جميع الحقوق محفوظة.</p>
