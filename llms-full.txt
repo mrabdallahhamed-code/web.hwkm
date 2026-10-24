@@ -948,3 +948,131 @@ URL: https://web.hwkm.net/blog/general-assembly-shareholders-guide/ — تاري
 حلول حوكم ذات صلة بهذا المقال
 - إدارة اجتماعات الجمعيات العامة
 - الامتثال التنظيمي
+
+## أنواع الكيانات التي تدعمها حوكم / Entity types supported
+تعمل المنصة على مستوى الكيان، وتظهر لكل كيان الأقسام التي تناسبه / The platform works at the entity level and shows each entity the sections that fit it:
+- مؤسسة فردية / Sole proprietorship: سجل قرارات المالك، توقيع إلكتروني، مخاطر وتدقيق وامتثال / owner decisions register, e-signature, risk, audit, compliance
+- شركة محدودة بمالك واحد / Single-owner LLC: الحوكمة، سجل قرارات المالك، متابعة القرارات، توقيع إلكتروني، تدقيق ومخاطر وامتثال
+- شركة محدودة بعدة شركاء / Multi-partner LLC: ما سبق مع التصويت الإلكتروني / the above plus e-voting
+- مساهمة غير مدرجة / Unlisted joint-stock: جمعيات عامة وتصويت إلكتروني مع المجلس واللجان / general assemblies and e-voting with board and committees
+- مساهمة مدرجة / Listed joint-stock: الإفصاحات (إعلانات تداول) مع الحوكمة والمخاطر والامتثال / disclosures (Tadawul announcements) with governance, risk, compliance
+- الأولوية التسويقية الحالية / Current marketing focus: الشركات غير المدرجة والعائلية / unlisted and family companies
+
+## ميزات الذكاء الاصطناعي / AI features
+ميزات اختيارية لا تعمل إلا عند طلبها، ومخرجاتها مقترحات يراجعها المستخدم قبل الاعتماد / Optional, run only when requested, outputs are suggestions the user reviews before approval:
+- اقتراح الوصف الوظيفي / job-description suggestions
+- تحسين صياغة الإجراءات / procedure wording improvement
+- تحليل ملف نتائج التقرير التشغيلي لاستخراج الفروقات / analysis of an uploaded operational-results file to surface variances
+يمكن استخدام المنصة كاملة دون أيٍّ منها / The whole platform can be used without any of them.
+
+## الأمان والخصوصية / Security and privacy
+- بيانات كل شركة معزولة عن غيرها على مستوى قاعدة البيانات / each company's data is isolated at the database level
+- يتطلب الدخول تأكيد البريد وتفعيل الحساب من مدير النظام، مع حماية من الدخول الآلي وسجل نشاط / sign-in requires email confirmation and administrator activation, with bot protection and an activity log
+- تملك المنصة وتشغّلها شركة أسس الأنظمة الجديدة، الرياض / owned and operated by Asas Alanzima Aljadida, Riyadh
+- لا توجد في هذه الصفحات شهادات امتثال أمني معلنة / no security certifications are claimed here
+
+## إجابات قصيرة / Short answers
+- ما حوكم؟ / What is HWKM? منصة سعودية للحوكمة والمخاطر والامتثال بسبعة حلول / a Saudi GRC platform with seven solutions
+- هل هي مجانية؟ / Is it free? لا؛ تتوفر فترة تجريبية ثم اشتراك بحسب نوع الكيان والباقة / No; a trial period is available, then subscription by entity type and package
+- هل ترتبط مباشرة بتداول؟ / Direct Tadawul integration? لا؛ تجهّز الإعلانات جاهزة للرفع وتتولى الشركة الرفع / No; announcements are prepared ready for upload and the company uploads them
+- هل تدعم الإنجليزية؟ / English? نعم / Yes
+
+
+# حوكمة الشركات العائلية: من القرار الشخصي إلى المؤسسة
+
+تقوم الشركات العائلية بدور محوري في الاقتصاد السعودي، لكن قوتها نفسها — الثقة والولاء وسرعة القرار — قد تتحول إلى نقطة ضعف حين تتداخل الملكية والإدارة والعلاقات الأسرية على طاولة واحدة. هنا تبرز الحاجة إلى حوكمة الشركات العائلية: إطار يفصل بين ما يخص العائلة وما يخص الشركة، ويحمي الطرفين من الخلاف.
+لا تعني الحوكمة هنا نقل الشركة إلى نموذج الشركات المدرجة، بل بناء قواعد واضحة ومتناسبة مع حجمها ومرحلتها. يعرض هذا المقال عناصرها الأساسية وكيف تبدأ بها دون تعقيد.
+لماذا تحتاج الشركة العائلية إلى حوكمة؟
+تتكرر في الشركات العائلية خمسة مواضع خلاف، وغالباً ما تظهر عند انتقال القيادة أو دخول جيل جديد:
+
+الخلط بين المال الشخصي ومال الشركة، مما يصعّب التقييم المالي ويثير الشكوك بين الشركاء.
+غموض من يملك صلاحية القرار بين المالك والمدير التنفيذي وأفراد العائلة.
+التوظيف والترقية على أساس القرابة لا الكفاءة، وما يتبعه من أثر على الفريق.
+توزيع الأرباح والاحتفاظ بها دون قاعدة معلنة، فيُعاد التفاوض عليها كل عام.
+غياب خطة لانتقال القيادة بين الأجيال.
+
+عناصر حوكمة الشركة العائلية
+1. الفصل بين الملكية والإدارة والعائلة
+لكل دائرة من الثلاث أسئلتها: العائلة تسأل عن القيم والعلاقات، والملاك يسألون عن العائد والاتجاه، والإدارة تسأل عن التشغيل. وضوح الدائرة التي يُتخذ فيها كل قرار هو أول خطوة.
+2. ميثاق العائلة
+وثيقة مكتوبة تتفق عليها العائلة، وتغطي قيمها، وشروط عمل أفراد العائلة في الشركة، وسياسة توزيع الأرباح، وآلية حل الخلافات. تُنصح مراجعتها قانونياً لتحديد أثرها النظامي.
+3. مجلس إدارة فعّال بأعضاء مستقلين
+يضيف العضو المستقل زاوية نظر من خارج العائلة، ويجعل المناقشة أكثر موضوعية. وللتفاصيل راجع مقالنا عن مبادئ مجلس الإدارة الفعّال.
+4. سياسات مكتوبة للأمور الحساسة
+سياسة للتوظيف والمكافآت، وأخرى للمعاملات مع الأطراف ذوي العلاقة، وثالثة للتوزيعات. السياسة المكتوبة تحوّل الخلاف الشخصي إلى مراجعة لقاعدة متفق عليها.
+5. سجل واضح لقرارات المالك
+توثيق قرارات المالك أو الملاك بتاريخها وسببها ومن وقّعها يحمي الشركة والعائلة عند أي مراجعة لاحقة، ويجعل مسار القرار قابلاً للتتبع.
+6. خطة التعاقب
+من يقود بعد الجيل الحالي؟ وما المعايير؟ وما الفترة الانتقالية؟ الإجابة قبل الحاجة أسهل بكثير منها بعدها.
+7. آلية لحل النزاعات
+خطوات متدرجة متفق عليها مسبقاً: حوار داخل مجلس العائلة، ثم وسيط محايد، ثم المسار النظامي عند الحاجة.
+كيف تبدأ دون تعقيد؟
+
+ارسم خريطة الملكية والأدوار: من يملك، ومن يدير، ومن يعمل من أفراد العائلة.
+اتفقوا على مبادئ عامة في جلسة عائلية واحدة، وسجّلوها كتابة.
+اكتبوا ثلاث سياسات أساسية: التوظيف، والمعاملات مع ذوي العلاقة، والتوزيعات.
+ابدأوا بمجلس استشاري أو لجنة فيها عضو مستقل على الأقل.
+وثّقوا القرارات وتابعوا تنفيذها بنظام واحد بدل الرسائل والملفات المتفرقة.
+
+خلاصة
+الحوكمة لا تُضعف الشركة العائلية ولا تقلل من دور العائلة، بل تحفظ العلاقة وتحمي الشركة من الخلاف عند أول اختبار. ابدأ بقواعد بسيطة مكتوبة وطوّرها مع نمو الشركة.
+منصة حوكم HWKM تعمل على مستوى الكيان، فتناسب المؤسسة الفردية والشركة المحدودة والمساهمة غير المدرجة، وتوفّر سجل قرارات المالك واجتماعات المجلس والجمعية والتصويت والتوقيع الإلكتروني وسجل المخاطر. للتعرف على الحوكمة المؤسسية في المنصة أو الكيانات التي نخدمها تفضّل بالزيارة.
+
+### ما ميثاق العائلة؟
+وثيقة تتفق فيها الأسرة على قيمها وشروط عمل أفرادها في الشركة وسياسة التوزيعات وآلية حل الخلافات. قوته الملزمة تتوقف على صياغته والاتفاق عليه، ويُنصح بمراجعته قانونياً.
+
+### هل تحتاج الشركة العائلية الصغيرة إلى مجلس إدارة؟
+لا يشترط شكل واحد. يمكن البدء بمجلس استشاري أو لجنة بعضو أو عضوين مستقلين، ثم الارتقاء بحسب الحجم، مع مراجعة نظام الشركات والنظام الأساسي للشركة.
+
+### ما الفرق بين حوكمة العائلة وحوكمة الشركة؟
+حوكمة العائلة تنظم علاقات الأسرة وقيمها ودور أفرادها، وحوكمة الشركة تنظم المجلس والإدارة والرقابة. ونجاح الشركة العائلية في الربط بينهما بقواعد مكتوبة.
+
+
+# Family Business Governance: From Personal Decisions to an Institution
+
+Family companies play a central role in the Saudi economy, yet their very strengths — trust, loyalty and fast decisions — can turn into weaknesses when ownership, management and family relationships sit at the same table. That is where family business governance comes in: a framework that separates what belongs to the family from what belongs to the company and protects both from conflict.
+Governance here does not mean moving the company to a listed-company model. It means building clear rules proportionate to its size and stage. This article sets out the core elements and how to begin without complexity.
+Why does a family company need governance?
+Five points of friction recur in family companies, and they often surface when leadership changes or a new generation joins:
+
+Mixing personal money with company money, which complicates any financial valuation and breeds suspicion between partners.
+Unclear decision authority between the owner, the chief executive and family members.
+Hiring and promotion by kinship rather than competence, and the effect this has on the team.
+Dividends and retained profit with no announced rule, so they are renegotiated every year.
+No plan for passing leadership between generations.
+
+The elements of family business governance
+1. Separating ownership, management and the family
+Each of the three circles has its own questions: the family asks about values and relationships, owners ask about returns and direction, and management asks about operations. Being clear about which circle makes each decision is the first step.
+2. A family charter
+A written document the family agrees on, covering its values, the terms under which family members work in the company, the dividend policy and how disputes are resolved. A legal review is advisable to determine its legal effect.
+3. An effective board with independent members
+An independent member adds a view from outside the family and makes discussion more objective. See our article on the principles of an effective board.
+4. Written policies for sensitive matters
+One policy for hiring and compensation, another for related-party transactions, a third for dividends. A written policy turns a personal dispute into a review of an agreed rule.
+5. A clear record of owner decisions
+Recording the owner's or owners' decisions with their date, reason and signatory protects the company and the family in any later review and makes the decision trail traceable.
+6. A succession plan
+Who leads after the current generation? On what criteria? Over what transition period? Answering before the need arises is far easier than answering after.
+7. A way to resolve disputes
+Agreed steps in advance: dialogue within the family council, then a neutral mediator, then the legal route if needed.
+How to start without complexity
+
+Map ownership and roles: who owns, who manages and which family members work in the company.
+Agree general principles in a single family session and record them in writing.
+Write three core policies: hiring, related-party transactions and dividends.
+Begin with an advisory board or committee that includes at least one independent member.
+Document decisions and follow their implementation in one system instead of scattered messages and files.
+
+Conclusion
+Governance does not weaken a family company or reduce the family's role. It preserves the relationship and protects the company from conflict at the first test. Start with simple written rules and develop them as the company grows.
+The HWKM platform works at the entity level, so it suits sole proprietorships, limited liability companies and unlisted joint-stock companies, and provides an owner decisions register, board and assembly meetings, voting, e-signature and a risk register. To learn more, see corporate governance on the platform or the entities we serve.
+
+### What is a family charter?
+A written document in which the family agrees on its values, the terms under which members work in the company, the dividend policy and how disputes are resolved. Its binding force depends on how it is drafted and agreed, and a legal review is advisable.
+
+### Does a small family company need a board of directors?
+There is no single required form. You can start with an advisory board or committee with one or two independent members and grow it with the company, while checking the Companies Law and the company's articles of association.
+
+### What is the difference between family governance and company governance?
+Family governance sets the family's relationships, values and the roles of its members; company governance sets the board, management and oversight. A family company succeeds by linking the two with written rules.

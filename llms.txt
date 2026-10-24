@@ -26,12 +26,41 @@ HWKM (حوكم) is a Saudi-built, all-in-one Governance, Risk and Compliance (GR
 
 ## المدونة / Blog
 - [جميع المقالات](https://web.hwkm.net/blog/)
+- [حوكمة الشركات العائلية: من القرار الشخصي إلى المؤسسة](https://web.hwkm.net/blog/family-business-governance-saudi/) (2026-10-24)
 - [حوكمة اجتماعات مجلس الإدارة: من الدعوة إلى القرار الموثّق](https://web.hwkm.net/blog/board-meeting-governance/) (2026-10-11)
 - [خطوط الدفاع الثلاثة: الحوكمة وإدارة المخاطر والتدقيق الداخلي](https://web.hwkm.net/blog/three-lines-of-defense/) (2026-10-11)
 - [الحوكمة في الشركات الصغيرة والمتوسطة: كيف تسرّع نموك؟](https://web.hwkm.net/blog/governance-smes-growth-impact/) (2026-06-10)
 - [الحوكمة المؤسسية في السعودية: الواقع والتحديات وما يجب تغييره](https://web.hwkm.net/blog/corporate-governance-saudi-arabia-reality-challenges/) (2026-05-15)
 - [مجلس الإدارة الفعّال: سبعة مبادئ لا يمكن تجاهلها](https://web.hwkm.net/blog/effective-board-seven-principles/) (2026-05-02)
 - [الجمعية العامة للمساهمين: دليلك الكامل للتحضير والإدارة](https://web.hwkm.net/blog/general-assembly-shareholders-guide/) (2026-04-18)
+
+## أنواع الكيانات التي تدعمها حوكم / Entity types supported
+تعمل المنصة على مستوى الكيان، وتظهر لكل كيان الأقسام التي تناسبه / The platform works at the entity level and shows each entity the sections that fit it:
+- مؤسسة فردية / Sole proprietorship: سجل قرارات المالك، توقيع إلكتروني، مخاطر وتدقيق وامتثال / owner decisions register, e-signature, risk, audit, compliance
+- شركة محدودة بمالك واحد / Single-owner LLC: الحوكمة، سجل قرارات المالك، متابعة القرارات، توقيع إلكتروني، تدقيق ومخاطر وامتثال
+- شركة محدودة بعدة شركاء / Multi-partner LLC: ما سبق مع التصويت الإلكتروني / the above plus e-voting
+- مساهمة غير مدرجة / Unlisted joint-stock: جمعيات عامة وتصويت إلكتروني مع المجلس واللجان / general assemblies and e-voting with board and committees
+- مساهمة مدرجة / Listed joint-stock: الإفصاحات (إعلانات تداول) مع الحوكمة والمخاطر والامتثال / disclosures (Tadawul announcements) with governance, risk, compliance
+- الأولوية التسويقية الحالية / Current marketing focus: الشركات غير المدرجة والعائلية / unlisted and family companies
+
+## ميزات الذكاء الاصطناعي / AI features
+ميزات اختيارية لا تعمل إلا عند طلبها، ومخرجاتها مقترحات يراجعها المستخدم قبل الاعتماد / Optional, run only when requested, outputs are suggestions the user reviews before approval:
+- اقتراح الوصف الوظيفي / job-description suggestions
+- تحسين صياغة الإجراءات / procedure wording improvement
+- تحليل ملف نتائج التقرير التشغيلي لاستخراج الفروقات / analysis of an uploaded operational-results file to surface variances
+يمكن استخدام المنصة كاملة دون أيٍّ منها / The whole platform can be used without any of them.
+
+## الأمان والخصوصية / Security and privacy
+- بيانات كل شركة معزولة عن غيرها على مستوى قاعدة البيانات / each company's data is isolated at the database level
+- يتطلب الدخول تأكيد البريد وتفعيل الحساب من مدير النظام، مع حماية من الدخول الآلي وسجل نشاط / sign-in requires email confirmation and administrator activation, with bot protection and an activity log
+- تملك المنصة وتشغّلها شركة أسس الأنظمة الجديدة، الرياض / owned and operated by Asas Alanzima Aljadida, Riyadh
+- لا توجد في هذه الصفحات شهادات امتثال أمني معلنة / no security certifications are claimed here
+
+## إجابات قصيرة / Short answers
+- ما حوكم؟ / What is HWKM? منصة سعودية للحوكمة والمخاطر والامتثال بسبعة حلول / a Saudi GRC platform with seven solutions
+- هل هي مجانية؟ / Is it free? لا؛ تتوفر فترة تجريبية ثم اشتراك بحسب نوع الكيان والباقة / No; a trial period is available, then subscription by entity type and package
+- هل ترتبط مباشرة بتداول؟ / Direct Tadawul integration? لا؛ تجهّز الإعلانات جاهزة للرفع وتتولى الشركة الرفع / No; announcements are prepared ready for upload and the company uploads them
+- هل تدعم الإنجليزية؟ / English? نعم / Yes
 
 ## صفحات أخرى / Other pages
 - [الصفحة الرئيسية](https://web.hwkm.net/): نبذة، والحلول، والمميزات، والأسئلة الشائعة، والتواصل
