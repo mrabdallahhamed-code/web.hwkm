@@ -12,6 +12,7 @@ HWKM (حوكم) is a Saudi-built, all-in-one Governance, Risk and Compliance (GR
 - البريد / Email: info@hwkm.net
 - الهاتف / Phone: +966509015864 (WhatsApp)
 - الفئة / Category: Business Application — Corporate Governance / GRC SaaS
+- الفيديو التعريفي (58 ثانية) / Intro video: https://web.hwkm.net/video/ — English: https://web.hwkm.net/en/video/
 - لغة الموقع / Languages: العربية (الأصل) والإنجليزية الكاملة — Arabic (default) and full English at https://web.hwkm.net/en/
 - التوافق / Alignment: مبنية وفق لائحة حوكمة الشركات (هيئة السوق المالية) ومتطلبات وزارة التجارة
 
