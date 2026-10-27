@@ -9,7 +9,17 @@
 <link rel="icon" href="/assets/favicon-192.png" sizes="192x192" type="image/png">
 <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
 <link href="/assets/blog.css" rel="stylesheet">
-<style id="navfix">@media(max-width:900px){nav{-webkit-backdrop-filter:none!important;backdrop-filter:none!important}.nav-links{height:100vh;height:100dvh}}</style></head>
+<style id="navfix">@media(max-width:900px){nav{-webkit-backdrop-filter:none!important;backdrop-filter:none!important}.nav-links{height:100vh;height:100dvh}}</style><style id="mnav">.hamburger{display:none;flex-direction:column;justify-content:center;gap:5px;width:40px;height:40px;background:transparent;border:none;cursor:pointer;padding:8px;z-index:1100;position:relative}
+.hamburger span{display:block;width:100%;height:2px;background:#fff;border-radius:2px;transition:all .3s}
+.hamburger.open span:nth-child(1){transform:translateY(7px) rotate(45deg)}.hamburger.open span:nth-child(2){opacity:0}.hamburger.open span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+.mobile-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:990}.mobile-overlay.open{display:block}
+@media(max-width:900px){.hamburger{display:flex}
+nav .nav-links{display:flex!important;position:fixed;top:0;bottom:0;left:0;right:auto;width:min(80vw,300px);height:100vh;height:100dvh;background:#0D2447;flex-direction:column;align-items:flex-start;gap:0;padding:5.5rem 1.6rem 2rem;transform:translateX(-100%);transition:transform .35s ease;z-index:1000;box-shadow:2px 0 30px rgba(0,0,0,.3);overflow-y:auto}
+html[dir=rtl] nav .nav-links{left:auto;right:0;transform:translateX(100%)}
+nav .nav-links.open{transform:translateX(0)!important}
+nav .nav-links li,nav .nav-links li:not(.nav-cta-li){display:block!important;width:100%}
+nav .nav-links a{display:block;width:100%;padding:.85rem 0;font-size:1rem;border-bottom:1px solid rgba(255,255,255,.1)}
+nav .nav-links a.nav-cta{margin-top:1rem;text-align:center;border-bottom:0}}</style></head>
 <body>
 <nav>
  <a href="/" class="nav-logo"><img src="/assets/logo-96.webp" alt="حوكم HWKM" width="44" height="44" loading="eager"></a>
@@ -18,7 +28,9 @@
   <li><a href="/#faq">الأسئلة الشائعة</a></li>
   <li class="nav-cta-li"><a href="https://wa.me/966509015864?text=مرحباً، أرغب بالاستفسار عن منصة حوكم" target="_blank" rel="noopener" class="nav-cta">تواصل عبر واتساب</a></li>
  </ul>
+<button aria-expanded="false" aria-label="القائمة" class="hamburger" id="hamburgerBtn"><span></span><span></span><span></span></button>
 </nav>
+<div class="mobile-overlay" id="mobileOverlay"></div>
 <main id="main"><div class="container"><header class="blog-hero" style="padding:5rem 0"><h1>الصفحة غير موجودة</h1><p>ربما تغيّر الرابط أو نُقلت الصفحة. يمكنك العودة إلى <a href="/" style="color:var(--gold);font-weight:700">الصفحة الرئيسية</a> أو تصفح <a href="/blog/" style="color:var(--gold);font-weight:700">المدونة</a>.</p></header></div></main>
 <footer>
  <div class="footer-inner">
@@ -28,5 +40,5 @@
   <div class="footer-btm">© ٢٠٢٦ حوكم HWKM. جميع الحقوق محفوظة. · web.hwkm.net</div>
  </div>
 </footer>
-</body>
+<script id="mnavjs">(function(){var b=document.getElementById('hamburgerBtn'),u=document.querySelector('nav .nav-links'),o=document.getElementById('mobileOverlay');if(!b||!u)return;function s(x){b.classList.toggle('open',x);u.classList.toggle('open',x);if(o)o.classList.toggle('open',x);b.setAttribute('aria-expanded',x?'true':'false')}b.addEventListener('click',function(){s(!u.classList.contains('open'))});if(o)o.addEventListener('click',function(){s(false)});u.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){s(false)})});document.addEventListener('keydown',function(e){if(e.key==='Escape')s(false)})})();</script></body>
 </html>
