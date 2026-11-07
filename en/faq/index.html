@@ -37,7 +37,7 @@
  "@context": "https://schema.org",
  "@graph": [
   {
-   "@type": "Organization",
+   "@type": ["Organization", "LocalBusiness"],
    "@id": "https://web.hwkm.net/#organization",
    "name": "HWKM",
    "alternateName": [
@@ -63,7 +63,9 @@
    ],
    "address": {
     "@type": "PostalAddress",
+    "streetAddress": "Al Olaya District, opposite Kingdom Tower",
     "addressLocality": "Riyadh",
+    "addressRegion": "Riyadh Province",
     "addressCountry": "SA"
    },
    "contactPoint": [
@@ -457,7 +459,7 @@ footer{background:#070f1e;border-top:1px solid rgba(184,151,42,.2);padding:3rem 
 .demo-body input:focus{outline:none;border-color:var(--gold)}
 .demo-success{text-align:center;padding:1rem 0}
 .demo-success .icon{font-size:2.5rem;margin-bottom:.8rem}
-.footer-col h4{color:var(--gold2);font-weight:700;margin-bottom:1rem;font-size:.95rem}
+.footer-col h3,.footer-col h4{color:var(--gold2);font-weight:700;margin-bottom:1rem;font-size:.95rem}
 .footer-col ul{list-style:none}
 .footer-col li{margin-bottom:8px}
 .footer-col a{color:rgba(255,255,255,.5);text-decoration:none;font-size:.88rem;transition:color .2s}
@@ -619,6 +621,7 @@ html[dir=ltr] .consent-bar p{text-align:left}
 <div class="footer-brand">
 <img alt="HWKM" decoding="async" height="48" loading="lazy" src="/assets/logo-96.webp" width="48"/>
 <p>The smart corporate governance platform. We build governance, reflect it, and implement it within your company.</p>
+<p class="footer-addr" style="margin-top:8px">Riyadh, Al Olaya District, opposite Kingdom Tower<br/><a dir="ltr" href="tel:+966509015864" style="color:inherit">+966 50 901 5864</a></p>
 <div class="social-links">
 <a aria-label="WhatsApp" href="https://wa.me/966509015864" onclick="if(window.ttq){ttq.track('Contact',{content_name:'WhatsApp_Footer'})}" rel="noopener" target="_blank"><svg fill="currentColor" height="18" viewbox="0 0 24 24" width="18"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21h.01c5.46 0 9.9-4.45 9.9-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.02c-.24.68-1.4 1.3-1.93 1.35-.5.05-1.03.25-3.46-.72-2.93-1.17-4.8-4.15-4.94-4.34-.14-.19-1.18-1.57-1.18-3 0-1.43.75-2.13 1.02-2.42.27-.29.58-.36.78-.36.19 0 .39 0 .56.01.18.01.42-.07.65.5.24.58.82 2 .89 2.15.07.14.12.31.02.5-.1.19-.15.31-.29.48-.15.17-.31.38-.44.51-.15.15-.3.31-.13.6.17.29.76 1.25 1.63 2.02 1.12.99 2.06 1.3 2.35 1.45.29.14.46.12.63-.07.17-.19.72-.84.92-1.13.19-.29.38-.24.63-.14.26.09 1.65.78 1.93.92.29.14.48.22.55.34.07.13.07.72-.17 1.4z"></path></svg></a>
 <a aria-label="Instagram" href="https://www.instagram.com/hwkm.co?igsh=OW1pNGprbzJoaHNo" rel="noopener" target="_blank"><svg fill="currentColor" height="18" viewbox="0 0 24 24" width="18"><path d="M12 2c2.72 0 3.06.01 4.12.06 1.06.05 1.79.22 2.43.47.66.26 1.21.6 1.76 1.15.5.5.9 1.1 1.15 1.76.25.64.42 1.37.47 2.43.05 1.06.06 1.4.06 4.12s-.01 3.06-.06 4.12c-.05 1.06-.22 1.79-.47 2.43a4.9 4.9 0 0 1-1.15 1.76c-.5.5-1.1.9-1.76 1.15-.64.25-1.37.42-2.43.47-1.06.05-1.4.06-4.12.06s-3.06-.01-4.12-.06c-1.06-.05-1.79-.22-2.43-.47a4.9 4.9 0 0 1-1.76-1.15 4.9 4.9 0 0 1-1.15-1.76c-.25-.64-.42-1.37-.47-2.43C2.01 15.06 2 14.72 2 12s.01-3.06.06-4.12c.05-1.06.22-1.79.47-2.43.26-.66.6-1.21 1.15-1.76A4.9 4.9 0 0 1 5.44.54C6.08.29 6.81.12 7.87.07 8.94.01 9.28 0 12 0zm0 5a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 8.2a3.2 3.2 0 1 1 0-6.4 3.2 3.2 0 0 1 0 6.4zm6.4-8.4a1.17 1.17 0 1 1-2.34 0 1.17 1.17 0 0 1 2.34 0z"></path></svg></a>
@@ -627,9 +630,9 @@ html[dir=ltr] .consent-bar p{text-align:left}
 <a aria-label="TikTok" href="https://www.tiktok.com/@hwkm.1?_r=1&amp;_t=ZS-97vCxe8q09w" rel="noopener" target="_blank"><svg fill="currentColor" height="18" viewbox="0 0 24 24" width="18"><path d="M16.6 5.82c-.9-.98-1.4-2.25-1.4-3.57h-3.13v13.44c0 1.6-1.3 2.9-2.9 2.9a2.9 2.9 0 0 1-2.9-2.9 2.9 2.9 0 0 1 2.9-2.9c.28 0 .55.04.8.11V9.7a6.06 6.06 0 0 0-.8-.05A6.05 6.05 0 0 0 3.12 15.7 6.05 6.05 0 0 0 9.17 21.75a6.05 6.05 0 0 0 6.05-6.05V9.01a9.1 9.1 0 0 0 5.34 1.71V7.6c-1.4 0-2.75-.55-3.96-1.78z"></path></svg></a>
 </div>
 </div>
-<div class="footer-col"><h4>Company</h4><ul><li><a href="/en/entities/">Who We Serve</a></li><li><a href="/en/about/">About Us</a></li><li><a href="/en/about/#vision">Vision</a></li><li><a href="/en/about/#partners">Partners</a></li><li><a href="/en/contact/">Contact Us</a></li></ul></div>
-<div class="footer-col"><h4>Services</h4><ul><li><a href="/en/governance/">Corporate Governance</a></li><li><a href="/en/board-meetings/">Board Meetings</a></li><li><a href="/en/general-assemblies/">General Assemblies</a></li><li><a href="/en/internal-audit/">Internal Audit</a></li><li><a href="/en/risk-management/">Risk Management</a></li><li><a href="/en/compliance/">Compliance</a></li><li><a href="/en/announcements/">Disclosures for Listed Companies (Tadawul Announcements)</a></li></ul></div>
-<div class="footer-col"><h4>Platform</h4><ul><li><a href="https://hwkm.net/?mode=signup" onclick="if(window.ttq){ttq.track('Lead',{content_name:'Try_Platform_Direct_Signup'})}" rel="noopener" target="_blank">Start Your Trial Period</a></li><li><a href="/en/blog/">Blog</a></li><li><a href="/en/faq/">FAQ</a></li><li><a href="/en/privacy/">Privacy Policy</a> <a href="/en/security/">Security</a></li><li><a href="/en/terms/">Terms</a></li></ul></div>
+<div class="footer-col"><h3>Company</h3><ul><li><a href="/en/entities/">Who We Serve</a></li><li><a href="/en/about/">About Us</a></li><li><a href="/en/about/#vision">Vision</a></li><li><a href="/en/about/#partners">Partners</a></li><li><a href="/en/contact/">Contact Us</a></li></ul></div>
+<div class="footer-col"><h3>Services</h3><ul><li><a href="/en/governance/">Corporate Governance</a></li><li><a href="/en/board-meetings/">Board Meetings</a></li><li><a href="/en/general-assemblies/">General Assemblies</a></li><li><a href="/en/internal-audit/">Internal Audit</a></li><li><a href="/en/risk-management/">Risk Management</a></li><li><a href="/en/compliance/">Compliance</a></li><li><a href="/en/announcements/">Disclosures for Listed Companies (Tadawul Announcements)</a></li></ul></div>
+<div class="footer-col"><h3>Platform</h3><ul><li><a href="https://hwkm.net/?mode=signup" onclick="if(window.ttq){ttq.track('Lead',{content_name:'Try_Platform_Direct_Signup'})}" rel="noopener" target="_blank">Start Your Trial Period</a></li><li><a href="/en/blog/">Blog</a></li><li><a href="/en/faq/">FAQ</a></li><li><a href="/en/privacy/">Privacy Policy</a> <a href="/en/security/">Security</a></li><li><a href="/en/terms/">Terms</a></li></ul></div>
 </div>
 <div class="footer-btm">
 <p>© 2026 HWKM. All rights reserved.</p>
