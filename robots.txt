@@ -1,6 +1,7 @@
 # robots.txt for web.hwkm.net
 User-agent: *
 Allow: /
+Disallow: /cdn-cgi/
 
 # AI search / answer engines and assistants (allowed so the platform can be cited)
 User-agent: OAI-SearchBot
