@@ -27,6 +27,10 @@ HWKM (حوكم) is a Saudi-built, all-in-one Governance, Risk and Compliance (GR
 
 ## المدونة / Blog
 - [جميع المقالات](https://web.hwkm.net/blog/)
+- [حوكمة الشركة القابضة: كيف تدير شركاتك التابعة بوضوح وسيطرة؟](https://web.hwkm.net/blog/holding-company-governance-subsidiaries/) (2026-11-09)
+- [المراجعة الداخلية وتقييم المخاطر: الفرق بينهما ومتى تحتاج الشركة كلًّا منهما؟](https://web.hwkm.net/blog/internal-audit-vs-risk-assessment/) (2026-11-09)
+- [تقييم أداء مجلس الإدارة: ماذا يُقاس وكيف تُجرى العملية بفعالية؟](https://web.hwkm.net/blog/board-performance-evaluation/) (2026-11-09)
+- [عشرة أخطاء في الحوكمة قد تكلّف شركتك غرامات أو بطلان قرارات](https://web.hwkm.net/blog/governance-mistakes-that-cost-companies/) (2026-11-09)
 - [حوكمة الشركات العائلية: من القرار الشخصي إلى المؤسسة](https://web.hwkm.net/blog/family-business-governance-saudi/) (2026-10-24)
 - [حوكمة اجتماعات مجلس الإدارة: من الدعوة إلى القرار الموثّق](https://web.hwkm.net/blog/board-meeting-governance/) (2026-10-11)
 - [خطوط الدفاع الثلاثة: الحوكمة وإدارة المخاطر والتدقيق الداخلي](https://web.hwkm.net/blog/three-lines-of-defense/) (2026-10-11)
