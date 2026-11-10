@@ -26,6 +26,7 @@ HWKM (حوكم) is a Saudi-built, all-in-one Governance, Risk and Compliance (GR
 7. [الإفصاحات للشركات المدرجة (إعلانات تداول)](https://web.hwkm.net/announcements/): ٨٦ نوع إعلان جاهز الصياغة، موقّع إلكترونياً، ومجهّز للرفع على تداول خلال دقائق — لا ساعات مع المستشار القانوني لصياغة كل إعلان من الصفر.
 
 ## المدونة / Blog
+- [باقات حوكم: ذاتي ومدار وشريك](https://web.hwkm.net/packages/)
 - [جميع المقالات](https://web.hwkm.net/blog/)
 - [حوكمة الشركة القابضة: كيف تدير شركاتك التابعة بوضوح وسيطرة؟](https://web.hwkm.net/blog/holding-company-governance-subsidiaries/) (2026-11-09)
 - [المراجعة الداخلية وتقييم المخاطر: الفرق بينهما ومتى تحتاج الشركة كلًّا منهما؟](https://web.hwkm.net/blog/internal-audit-vs-risk-assessment/) (2026-11-09)
