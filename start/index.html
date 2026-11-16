@@ -204,15 +204,15 @@ html[dir=ltr] .pk-badge{transform:translateX(-50%)}
 .ic-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1.2rem}
 .ic-card{background:var(--off);border-radius:12px;padding:1.5rem;border-top:4px solid var(--gold)}
 .ic-card h3{color:var(--blue);font-size:1.1rem;font-weight:800;margin-bottom:.5rem}
-.ic-card p{color:#444;line-height:1.8;font-size:.95rem}
-.ic-alt{background:#fff}.ic-band{background:var(--light)}
+.ic-card p{text-align:right!important;color:#444;line-height:1.8;font-size:.95rem}
+.ic-alt{background:#fff}.ic-band{background:var(--light)}.ic-band.ic-wrap{padding-left:2rem;padding-right:2rem}
 .ic-step{counter-increment:s}.ic-step h3::before{content:counter(s);display:inline-flex;width:30px;height:30px;border-radius:50%;background:var(--gold);color:var(--dark);align-items:center;justify-content:center;margin-left:.6rem;font-size:.95rem}
 .ic-steps{counter-reset:s}
 .ic-video{max-width:860px;margin:0 auto;border-radius:14px;overflow:hidden;box-shadow:0 10px 40px rgba(13,36,71,.2)}
 .ic-video video{width:100%;display:block}
 .ic-btns{display:flex;gap:.8rem;justify-content:center;flex-wrap:wrap}
 .btn-o{border:1.5px solid rgba(255,255,255,.5);color:#fff;padding:13px 30px;border-radius:6px;font-weight:700;text-decoration:none;display:inline-block}
-.ic-note{font-size:.82rem;color:rgba(255,255,255,.6);margin-top:1rem}
+.ic-sub{text-wrap:balance}.ic-band{padding-left:2rem;padding-right:2rem}.ic-band>div{max-width:1036px!important}.ic-sub{margin-left:auto!important;margin-right:auto!important;width:100%;max-width:720px!important}.lp-cta-box{text-align:center!important}.lp-cta-box p{margin-left:auto!important;margin-right:auto!important}.ic-four{grid-template-columns:repeat(4,1fr)}@media(max-width:1000px){.ic-four{grid-template-columns:repeat(2,1fr)}}@media(max-width:600px){.ic-four{grid-template-columns:1fr}}.lp-cta-box p,.lp-cta-box h2{text-align:center!important}.ic-sub .lp-home-link{margin:0}.ic-sec-c{text-align:center}.ic-pills{display:flex;gap:.6rem;justify-content:center;flex-wrap:wrap;margin:0 auto 1.2rem}.ic-pills span{background:var(--light);color:var(--blue);font-weight:700;padding:8px 18px;border-radius:999px;font-size:.92rem}.lp-hero .lead{text-align:center!important}.ic-note{text-align:center!important;font-size:.82rem;color:rgba(255,255,255,.6);margin-top:1rem}
 @media(max-width:768px){.ic-wrap{padding:50px 1.2rem}}
 </style>
 </head>
@@ -240,7 +240,7 @@ html[dir=ltr] .pk-badge{transform:translateX(-50%)}
 </div></section>
 <main id="main" style="max-width:none;padding:0">
 <section class="ic-wrap"><h2 class="ic-h">أربعة أسباب تجعل حوكمتك أسهل وأقوى</h2><p class="ic-sub">كل ما تحتاجه الشركة لتُدار بوضوح ومسؤولية، دون أوراق ضائعة ولا قرارات منسية.</p>
-<div class="ic-grid">
+<div class="ic-grid ic-four">
 <div class="ic-card"><h3>حوكمة مجلس الإدارة واللجان</h3><p>اجتماعاتك تُجدول، ومحاضرك تُكتب، وقراراتك تُتابع حتى تُنفَّذ. كل شيء موثّق وجاهز للمراجعة في أي وقت.</p></div>
 <div class="ic-card"><h3>حوكمة الجمعيات والمساهمين</h3><p>أدِر الجمعيات العامة بالتصويت الإلكتروني، واحتفظ بسجل مساهمين حيّ، فلا لبس في الملكية ولا في القرارات.</p></div>
 <div class="ic-card"><h3>حوكمة السياسات والصلاحيات والإجراءات</h3><p>نعدّ معك سياسات شركتك وإجراءاتها وتُعتمد داخل المنصة، وتُحدَّد الصلاحيات بدقة، فيعرف كل شخص ما له وما عليه.</p></div>
@@ -250,7 +250,7 @@ html[dir=ltr] .pk-badge{transform:translateX(-50%)}
 <section class="ic-wrap ic-band" style="max-width:none"><div style="max-width:1100px;margin:0 auto"><h2 class="ic-h">شاهد المنصة</h2><p class="ic-sub">مقطع تعريفي قصير بمنصة حوكم.</p>
 <div class="ic-video"><video controls preload="none" poster="/assets/intro-poster.webp" playsinline><source src="/hwkm-intro.mp4" type="video/mp4"/></video></div></div></section>
 
-<section class="ic-wrap"><h2 class="ic-h">مناسبة لمختلف الكيانات</h2><p class="ic-sub">تدعم المنصة حاليًا الشركات المساهمة المدرجة وغير المدرجة، والشركات ذات المسؤولية المحدودة، والمؤسسات الفردية. وإن لم تجد نوع كيانك بين هذه الأنواع، فنحن نعمل على إضافته، تواصل معنا لنخبرك بالموعد المتوقع.</p></section>
+<section class="ic-wrap"><h2 class="ic-h">مناسبة لمختلف الكيانات</h2><p class="ic-sub" style="margin-bottom:1.2rem">تدعم المنصة حاليًا الكيانات التالية. وإن لم تجد نوع كيانك بينها، فنحن نعمل على إضافته، تواصل معنا لنخبرك بالموعد المتوقع.</p><div class="ic-pills"><span>شركات مساهمة مدرجة</span><span>شركات مساهمة غير مدرجة</span><span>شركات ذات مسؤولية محدودة</span><span>مؤسسات فردية</span></div></section>
 
 <section class="ic-wrap ic-band" style="max-width:none"><div style="max-width:1100px;margin:0 auto"><h2 class="ic-h">الثقة والأمان</h2><p class="ic-sub">بيانات الحوكمة حساسة، ونتعامل معها على هذا الأساس.</p>
 <div class="ic-grid">
