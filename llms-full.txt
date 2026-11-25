@@ -1,6 +1,6 @@
 # حوكم HWKM — النسخة الكاملة للمحتوى / Full content
 
-> المصدر: https://web.hwkm.net/ — آخر تحديث 2026-09-19. Source: https://web.hwkm.net/ — last updated 2026-09-19.
+> المصدر: https://hwkm.net/ — آخر تحديث 2026-09-19. Source: https://hwkm.net/ — last updated 2026-09-19.
 
 # الصفحة الرئيسية / Homepage
 
@@ -18,7 +18,7 @@
 - تقييم أداء أعضاء المجلس
 - تقييم فعالية الحوكمة
 
-الصفحة: https://web.hwkm.net/governance/
+الصفحة: https://hwkm.net/governance/
 
 ### إدارة اجتماعات مجلس الإدارة (Board Meeting Management)
 من الدعوة إلى التوقيع، دورة اجتماع كاملة بلا ورق ولا رسائل متفرقة. كل عضو مجلس يصله كل شيء في مكان واحد، وأنت تعرف بالضبط أين توقف كل قرار.
@@ -29,7 +29,7 @@
 - تسجيل المحاضر والقرارات
 - التصويت والتوقيع الإلكتروني
 
-الصفحة: https://web.hwkm.net/board-meetings/
+الصفحة: https://hwkm.net/board-meetings/
 
 ### إدارة اجتماعات الجمعيات العامة (General Assembly Management)
 جمعية عامة تسير بثقة من أول دعوة إلى آخر محضر — النصاب، التصويت، والتوثيق، كلها مطابقة للاشتراطات النظامية دون أن تحفظها عن ظهر قلب.
@@ -40,7 +40,7 @@
 - توثيق القرارات والمحاضر
 - الامتثال للمتطلبات النظامية
 
-الصفحة: https://web.hwkm.net/general-assemblies/
+الصفحة: https://hwkm.net/general-assemblies/
 
 ### التدقيق الداخلي (Internal Audit)
 فريق التدقيق الداخلي يخطط وينفذ ويتابع من مكان واحد — بدل ملفات إكسل متناثرة توصل للجنة المراجعة متأخرة.
@@ -51,7 +51,7 @@
 - متابعة توصيات التدقيق
 - تقارير لجنة المراجعة
 
-الصفحة: https://web.hwkm.net/internal-audit/
+الصفحة: https://hwkm.net/internal-audit/
 
 ### إدارة المخاطر (Risk Management)
 الخطر الذي لا تراه هو الأخطر. سجل حي يكشف كل خطر، يرتّبه حسب الأولوية، ويُسند لكل خطر مالكاً وحالة — فلا يُنسى.
@@ -60,7 +60,7 @@
 - سجل المخاطر المؤسسية
 - تقييم المخاطر حسب الأولوية
 
-الصفحة: https://web.hwkm.net/risk-management/
+الصفحة: https://hwkm.net/risk-management/
 
 ### الامتثال (Compliance)
 امتثال بلا مفاجآت. تنبيهات قبل المواعيد، سجل التزامات محدّث، وتقارير جاهزة — بدل أن تكتشف التزاماً فائتاً بعد فوات الأوان.
@@ -71,7 +71,7 @@
 - تنبيهات المواعيد والمتطلبات
 - تقارير الامتثال الدورية
 
-الصفحة: https://web.hwkm.net/compliance/
+الصفحة: https://hwkm.net/compliance/
 
 ### الإعلانات (Announcements)
 ٨٦ نوع إعلان جاهز الصياغة، موقّع إلكترونياً، ومجهّز للرفع على تداول خلال دقائق — لا ساعات مع المستشار القانوني لصياغة كل إعلان من الصفر.
@@ -82,7 +82,7 @@
 - توقيع إلكتروني على المستند قبل الاعتماد
 - أرشفة ومتابعة حالة كل إعلان
 
-الصفحة: https://web.hwkm.net/announcements/
+الصفحة: https://hwkm.net/announcements/
 ## مميزات حوكم
 
 ### منصة واحدة تكفي
@@ -124,7 +124,7 @@
 
 ---
 
-URL: https://web.hwkm.net/governance/
+URL: https://hwkm.net/governance/
 
 الرئيسية ← الحوكمة المؤسسية
 
@@ -204,7 +204,7 @@ URL: https://web.hwkm.net/governance/
 
 ---
 
-URL: https://web.hwkm.net/board-meetings/
+URL: https://hwkm.net/board-meetings/
 
 الرئيسية ← إدارة اجتماعات مجلس الإدارة
 
@@ -284,7 +284,7 @@ URL: https://web.hwkm.net/board-meetings/
 
 ---
 
-URL: https://web.hwkm.net/general-assemblies/
+URL: https://hwkm.net/general-assemblies/
 
 الرئيسية ← إدارة اجتماعات الجمعيات العامة
 
@@ -340,7 +340,7 @@ URL: https://web.hwkm.net/general-assemblies/
 
 ---
 
-URL: https://web.hwkm.net/internal-audit/
+URL: https://hwkm.net/internal-audit/
 
 الرئيسية ← التدقيق الداخلي
 
@@ -396,7 +396,7 @@ URL: https://web.hwkm.net/internal-audit/
 
 ---
 
-URL: https://web.hwkm.net/risk-management/
+URL: https://hwkm.net/risk-management/
 
 الرئيسية ← إدارة المخاطر المؤسسية
 
@@ -470,7 +470,7 @@ URL: https://web.hwkm.net/risk-management/
 
 ---
 
-URL: https://web.hwkm.net/compliance/
+URL: https://hwkm.net/compliance/
 
 الرئيسية ← الامتثال التنظيمي
 
@@ -526,7 +526,7 @@ URL: https://web.hwkm.net/compliance/
 
 ---
 
-URL: https://web.hwkm.net/announcements/
+URL: https://hwkm.net/announcements/
 
 الرئيسية ← الإفصاحات للشركات المدرجة (إعلانات تداول)
 
@@ -582,7 +582,7 @@ URL: https://web.hwkm.net/announcements/
 
 ---
 
-URL: https://web.hwkm.net/blog/governance-smes-growth-impact/ — تاريخ النشر: 2026-06-10
+URL: https://hwkm.net/blog/governance-smes-growth-impact/ — تاريخ النشر: 2026-06-10
 
 الرئيسية/
 المدونة/
@@ -676,7 +676,7 @@ URL: https://web.hwkm.net/blog/governance-smes-growth-impact/ — تاريخ ا�
 
 ---
 
-URL: https://web.hwkm.net/blog/corporate-governance-saudi-arabia-reality-challenges/ — تاريخ النشر: 2026-05-15
+URL: https://hwkm.net/blog/corporate-governance-saudi-arabia-reality-challenges/ — تاريخ النشر: 2026-05-15
 
 الرئيسية/
 المدونة/
@@ -773,7 +773,7 @@ URL: https://web.hwkm.net/blog/corporate-governance-saudi-arabia-reality-challen
 
 ---
 
-URL: https://web.hwkm.net/blog/effective-board-seven-principles/ — تاريخ النشر: 2026-05-02
+URL: https://hwkm.net/blog/effective-board-seven-principles/ — تاريخ النشر: 2026-05-02
 
 الرئيسية/
 المدونة/
@@ -851,7 +851,7 @@ URL: https://web.hwkm.net/blog/effective-board-seven-principles/ — تاريخ 
 
 ---
 
-URL: https://web.hwkm.net/blog/general-assembly-shareholders-guide/ — تاريخ النشر: 2026-04-18
+URL: https://hwkm.net/blog/general-assembly-shareholders-guide/ — تاريخ النشر: 2026-04-18
 
 الرئيسية/
 المدونة/

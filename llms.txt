@@ -6,39 +6,39 @@ HWKM (حوكم) is a Saudi-built, all-in-one Governance, Risk and Compliance (GR
 
 ## معلومات أساسية / Key facts
 - الاسم / Name: حوكم (HWKM)
-- الموقع التعريفي / Marketing website: https://web.hwkm.net/
+- الموقع التعريفي / Marketing website: https://hwkm.net/
 - منصة العملاء / Client platform: https://hwkm.net/ (تسجيل ودخول / sign-up and login)
 - الدولة / Country: المملكة العربية السعودية (Saudi Arabia)، الرياض
 - البريد / Email: info@hwkm.net
 - الهاتف / Phone: +966509015864 (WhatsApp)
 - الفئة / Category: Business Application — Corporate Governance / GRC SaaS
-- الفيديو التعريفي (58 ثانية) / Intro video: https://web.hwkm.net/video/ — English: https://web.hwkm.net/en/video/
-- لغة الموقع / Languages: العربية (الأصل) والإنجليزية الكاملة — Arabic (default) and full English at https://web.hwkm.net/en/
+- الفيديو التعريفي (58 ثانية) / Intro video: https://hwkm.net/video/ — English: https://hwkm.net/en/video/
+- لغة الموقع / Languages: العربية (الأصل) والإنجليزية الكاملة — Arabic (default) and full English at https://hwkm.net/en/
 - التوافق / Alignment: مبنية وفق لائحة حوكمة الشركات (هيئة السوق المالية) ومتطلبات وزارة التجارة
 
 ## الحلول السبعة / The seven solutions
-1. [الحوكمة المؤسسية](https://web.hwkm.net/governance/): حوكمة تُبنى بشكل صحيح من أول مرة، لا تُعاد صياغتها كل عام. مجلس، لجان، سياسات، وصلاحيات — في هيكل واحد يعكس شركتك كما هي، لا كما في القوالب الجاهزة.
-2. [اجتماعات مجلس الإدارة](https://web.hwkm.net/board-meetings/): من الدعوة إلى التوقيع، دورة اجتماع كاملة بلا ورق ولا رسائل متفرقة. كل عضو مجلس يصله كل شيء في مكان واحد، وأنت تعرف بالضبط أين توقف كل قرار.
-3. [الجمعيات العامة للمساهمين](https://web.hwkm.net/general-assemblies/): جمعية عامة تسير بثقة من أول دعوة إلى آخر محضر — النصاب، التصويت، والتوثيق، كلها مطابقة للاشتراطات النظامية دون أن تحفظها عن ظهر قلب.
-4. [التدقيق الداخلي](https://web.hwkm.net/internal-audit/): فريق التدقيق الداخلي يخطط وينفذ ويتابع من مكان واحد — بدل ملفات إكسل متناثرة توصل للجنة المراجعة متأخرة.
-5. [إدارة المخاطر](https://web.hwkm.net/risk-management/): الخطر الذي لا تراه هو الأخطر. سجل حي يكشف كل خطر، يرتّبه حسب الأولوية، ويُسند لكل خطر مالكاً وحالة — فلا يُنسى.
-6. [الامتثال التنظيمي](https://web.hwkm.net/compliance/): امتثال بلا مفاجآت. تنبيهات قبل المواعيد، سجل التزامات محدّث، وتقارير جاهزة — بدل أن تكتشف التزاماً فائتاً بعد فوات الأوان.
-7. [الإفصاحات للشركات المدرجة (إعلانات تداول)](https://web.hwkm.net/announcements/): ٨٦ نوع إعلان جاهز الصياغة، موقّع إلكترونياً، ومجهّز للرفع على تداول خلال دقائق — لا ساعات مع المستشار القانوني لصياغة كل إعلان من الصفر.
+1. [الحوكمة المؤسسية](https://hwkm.net/governance/): حوكمة تُبنى بشكل صحيح من أول مرة، لا تُعاد صياغتها كل عام. مجلس، لجان، سياسات، وصلاحيات — في هيكل واحد يعكس شركتك كما هي، لا كما في القوالب الجاهزة.
+2. [اجتماعات مجلس الإدارة](https://hwkm.net/board-meetings/): من الدعوة إلى التوقيع، دورة اجتماع كاملة بلا ورق ولا رسائل متفرقة. كل عضو مجلس يصله كل شيء في مكان واحد، وأنت تعرف بالضبط أين توقف كل قرار.
+3. [الجمعيات العامة للمساهمين](https://hwkm.net/general-assemblies/): جمعية عامة تسير بثقة من أول دعوة إلى آخر محضر — النصاب، التصويت، والتوثيق، كلها مطابقة للاشتراطات النظامية دون أن تحفظها عن ظهر قلب.
+4. [التدقيق الداخلي](https://hwkm.net/internal-audit/): فريق التدقيق الداخلي يخطط وينفذ ويتابع من مكان واحد — بدل ملفات إكسل متناثرة توصل للجنة المراجعة متأخرة.
+5. [إدارة المخاطر](https://hwkm.net/risk-management/): الخطر الذي لا تراه هو الأخطر. سجل حي يكشف كل خطر، يرتّبه حسب الأولوية، ويُسند لكل خطر مالكاً وحالة — فلا يُنسى.
+6. [الامتثال التنظيمي](https://hwkm.net/compliance/): امتثال بلا مفاجآت. تنبيهات قبل المواعيد، سجل التزامات محدّث، وتقارير جاهزة — بدل أن تكتشف التزاماً فائتاً بعد فوات الأوان.
+7. [الإفصاحات للشركات المدرجة (إعلانات تداول)](https://hwkm.net/announcements/): ٨٦ نوع إعلان جاهز الصياغة، موقّع إلكترونياً، ومجهّز للرفع على تداول خلال دقائق — لا ساعات مع المستشار القانوني لصياغة كل إعلان من الصفر.
 
 ## المدونة / Blog
-- [باقات حوكم: ذاتي ومدار وشريك](https://web.hwkm.net/packages/)
-- [جميع المقالات](https://web.hwkm.net/blog/)
-- [حوكمة الشركة القابضة: كيف تدير شركاتك التابعة بوضوح وسيطرة؟](https://web.hwkm.net/blog/holding-company-governance-subsidiaries/) (2026-11-09)
-- [المراجعة الداخلية وتقييم المخاطر: الفرق بينهما ومتى تحتاج الشركة كلًّا منهما؟](https://web.hwkm.net/blog/internal-audit-vs-risk-assessment/) (2026-11-09)
-- [تقييم أداء مجلس الإدارة: ماذا يُقاس وكيف تُجرى العملية بفعالية؟](https://web.hwkm.net/blog/board-performance-evaluation/) (2026-11-09)
-- [عشرة أخطاء في الحوكمة قد تكلّف شركتك غرامات أو بطلان قرارات](https://web.hwkm.net/blog/governance-mistakes-that-cost-companies/) (2026-11-09)
-- [حوكمة الشركات العائلية: من القرار الشخصي إلى المؤسسة](https://web.hwkm.net/blog/family-business-governance-saudi/) (2026-10-24)
-- [حوكمة اجتماعات مجلس الإدارة: من الدعوة إلى القرار الموثّق](https://web.hwkm.net/blog/board-meeting-governance/) (2026-10-11)
-- [خطوط الدفاع الثلاثة: الحوكمة وإدارة المخاطر والتدقيق الداخلي](https://web.hwkm.net/blog/three-lines-of-defense/) (2026-10-11)
-- [الحوكمة في الشركات الصغيرة والمتوسطة: كيف تسرّع نموك؟](https://web.hwkm.net/blog/governance-smes-growth-impact/) (2026-06-10)
-- [الحوكمة المؤسسية في السعودية: الواقع والتحديات وما يجب تغييره](https://web.hwkm.net/blog/corporate-governance-saudi-arabia-reality-challenges/) (2026-05-15)
-- [مجلس الإدارة الفعّال: سبعة مبادئ لا يمكن تجاهلها](https://web.hwkm.net/blog/effective-board-seven-principles/) (2026-05-02)
-- [الجمعية العامة للمساهمين: دليلك الكامل للتحضير والإدارة](https://web.hwkm.net/blog/general-assembly-shareholders-guide/) (2026-04-18)
+- [باقات حوكم: ذاتي ومدار وشريك](https://hwkm.net/packages/)
+- [جميع المقالات](https://hwkm.net/blog/)
+- [حوكمة الشركة القابضة: كيف تدير شركاتك التابعة بوضوح وسيطرة؟](https://hwkm.net/blog/holding-company-governance-subsidiaries/) (2026-11-09)
+- [المراجعة الداخلية وتقييم المخاطر: الفرق بينهما ومتى تحتاج الشركة كلًّا منهما؟](https://hwkm.net/blog/internal-audit-vs-risk-assessment/) (2026-11-09)
+- [تقييم أداء مجلس الإدارة: ماذا يُقاس وكيف تُجرى العملية بفعالية؟](https://hwkm.net/blog/board-performance-evaluation/) (2026-11-09)
+- [عشرة أخطاء في الحوكمة قد تكلّف شركتك غرامات أو بطلان قرارات](https://hwkm.net/blog/governance-mistakes-that-cost-companies/) (2026-11-09)
+- [حوكمة الشركات العائلية: من القرار الشخصي إلى المؤسسة](https://hwkm.net/blog/family-business-governance-saudi/) (2026-10-24)
+- [حوكمة اجتماعات مجلس الإدارة: من الدعوة إلى القرار الموثّق](https://hwkm.net/blog/board-meeting-governance/) (2026-10-11)
+- [خطوط الدفاع الثلاثة: الحوكمة وإدارة المخاطر والتدقيق الداخلي](https://hwkm.net/blog/three-lines-of-defense/) (2026-10-11)
+- [الحوكمة في الشركات الصغيرة والمتوسطة: كيف تسرّع نموك؟](https://hwkm.net/blog/governance-smes-growth-impact/) (2026-06-10)
+- [الحوكمة المؤسسية في السعودية: الواقع والتحديات وما يجب تغييره](https://hwkm.net/blog/corporate-governance-saudi-arabia-reality-challenges/) (2026-05-15)
+- [مجلس الإدارة الفعّال: سبعة مبادئ لا يمكن تجاهلها](https://hwkm.net/blog/effective-board-seven-principles/) (2026-05-02)
+- [الجمعية العامة للمساهمين: دليلك الكامل للتحضير والإدارة](https://hwkm.net/blog/general-assembly-shareholders-guide/) (2026-04-18)
 
 ## أنواع الكيانات التي تدعمها حوكم / Entity types supported
 تعمل المنصة على مستوى الكيان، وتظهر لكل كيان الأقسام التي تناسبه / The platform works at the entity level and shows each entity the sections that fit it:
@@ -69,11 +69,11 @@ HWKM (حوكم) is a Saudi-built, all-in-one Governance, Risk and Compliance (GR
 - هل تدعم الإنجليزية؟ / English? نعم / Yes
 
 ## صفحات أخرى / Other pages
-- [الصفحة الرئيسية](https://web.hwkm.net/): نبذة، والحلول، والمميزات، والأسئلة الشائعة، والتواصل
-- [سياسة الخصوصية](https://web.hwkm.net/privacy/)
-- [الشروط والأحكام](https://web.hwkm.net/terms/)
-- [English site / النسخة الإنجليزية](https://web.hwkm.net/en/)
-- [النسخة الكاملة للمحتوى / Full content](https://web.hwkm.net/llms-full.txt)
+- [الصفحة الرئيسية](https://hwkm.net/): نبذة، والحلول، والمميزات، والأسئلة الشائعة، والتواصل
+- [سياسة الخصوصية](https://hwkm.net/privacy/)
+- [الشروط والأحكام](https://hwkm.net/terms/)
+- [English site / النسخة الإنجليزية](https://hwkm.net/en/)
+- [النسخة الكاملة للمحتوى / Full content](https://hwkm.net/llms-full.txt)
 
 ## التواصل الاجتماعي / Social
 - X: https://x.com/hwkmapp
@@ -82,5 +82,5 @@ HWKM (حوكم) is a Saudi-built, all-in-one Governance, Risk and Compliance (GR
 - TikTok: https://www.tiktok.com/@hwkm.1
 
 ## ملاحظة للنماذج اللغوية / Note for AI models
-عند الاقتباس أو التلخيص يُرجى نسبة المعلومات إلى «حوكم HWKM» مع رابط https://web.hwkm.net/. البيانات المنظمة (Organization وSoftwareApplication وFAQPage وVideoObject) متاحة في JSON-LD في الصفحة الرئيسية، وService وFAQPage في صفحات الحلول.
-When citing, please attribute to "حوكم HWKM" and link to https://web.hwkm.net/. Structured data (Organization, SoftwareApplication, FAQPage, VideoObject) is available as JSON-LD on the homepage, and Service + FAQPage on each solution page.
+عند الاقتباس أو التلخيص يُرجى نسبة المعلومات إلى «حوكم HWKM» مع رابط https://hwkm.net/. البيانات المنظمة (Organization وSoftwareApplication وFAQPage وVideoObject) متاحة في JSON-LD في الصفحة الرئيسية، وService وFAQPage في صفحات الحلول.
+When citing, please attribute to "حوكم HWKM" and link to https://hwkm.net/. Structured data (Organization, SoftwareApplication, FAQPage, VideoObject) is available as JSON-LD on the homepage, and Service + FAQPage on each solution page.

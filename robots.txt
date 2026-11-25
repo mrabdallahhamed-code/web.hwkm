@@ -1,4 +1,4 @@
-# robots.txt for web.hwkm.net
+# robots.txt for hwkm.net
 User-agent: *
 Allow: /
 Disallow: /cdn-cgi/
@@ -46,4 +46,4 @@ Allow: /
 User-agent: Bytespider
 Disallow: /
 
-Sitemap: https://web.hwkm.net/sitemap.xml
+Sitemap: https://hwkm.net/sitemap.xml
